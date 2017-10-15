@@ -1,0 +1,1 @@
+{"DateMax": "2014-11-21", "Range": 689, "Valeur_Moy": 3588.0759949622143, "Valeur_Max": 1290439.0, "Transactions": 1140518, "Panier": 6, "Ca": 7122330, "Clients": 1985, "Produits": 7, "DateMin": "2013-01-01"}
