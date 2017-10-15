@@ -1,0 +1,84 @@
+{% extends "TRON/base.html" %}
+{% load staticfiles %}
+		
+		
+{% block content2 %}
+		<div id="main>
+			<div class="container">
+				<div class="row main-row">
+					<div class="6u">
+						
+						<section class="left-content" id=GG>	
+
+
+							<img src="{% static 'images/images1.JPEG' %}" alt="My image"/>	
+							
+							
+	
+						</section>
+					
+					</div>
+					<div class="6u">
+						<section class="right-content" id=GG2>	
+						</br>
+										<a href="/GO" class="button2">GO</a>				
+		
+						</section>
+						<section>
+						
+								
+								<div class="container">
+								  
+								  <div class="form-group">
+									<input type="file" name="img[]" class="file">
+									<div class="input-group col-xs-12">
+									  <span class="input-group-addon"><i class="glyphicon glyphicon-picture"></i></span>
+									  <input type="text" class="form-control input-lg" disabled placeholder="Upload Image">
+									  <span class="input-group-btn">
+										<button type="button" class="browse btn btn-primary input-lg" data-loading-text="Loading..." type="button"><i class="glyphicon glyphicon-search"></i> Browse</button>
+
+									  </span>
+									</div>		
+								  </div>
+
+								  </div>
+
+								</div>
+								<script>
+									$("button").click(function () {
+									  var btn = $(this);
+									  $(btn).button('loading');
+									  setTimeout(function () {
+										$(btn).buttonLoader('stop');
+									  }, 5000);
+									});
+								</script>
+								<script>
+								$(document).on('click', '.browse', function(){
+									  var file = $(this).parent().parent().parent().find('.file');
+									  file.trigger('click');
+									});
+									$(document).on('change', '.file', function(){
+									  $(this).parent().find('.form-control').val($(this).val().replace(/C:\\fakepath\\/i, ''));
+									});
+								</script>
+							<h2>
+								PROJETS	
+								</br>
+								{% for dir in liste_alpha2 %}
+									 
+									<a href="http://localhost:8000/user/{{ dir }}/"> {{ dir}} </a>
+									
+									
+									</br>
+								{% endfor %}
+								
+							
+							</h2>
+								
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+{% endblock content2 %}

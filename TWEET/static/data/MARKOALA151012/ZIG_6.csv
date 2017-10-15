@@ -1,0 +1,800 @@
+,Unnamed: 0,IDC,Prenom,Nom_x,email,adresse,MT_TOT,PMG,RECENCE
+0,0,792,Louis,Garcimore,Louis.Garcimore@dtc.de,"Avenue des Schtroumps, 13370 Veliko Curan",14809.0,2. G,2
+1,1,227,Mamadou,Pigox,Mamadou.Pigox@yopmail.com,"Boulevard de la girafouine, 50130 Montruc",55479.3,1. TG,0
+2,2,2011,Bodgan,Lazare,Bodgan.Lazare@hotme.com,"Hameau du hibours, 1180 Cheapbourg",33.5,4. P,9
+3,3,3708,Louis,Bouillave,Louis.Bouillave@hotme.com,"Hameau du hibours, 1180 Montruc",1368.6,4. P,1
+4,4,1825,Franck,Testit,Franck.Testit@yopmail.com,"Hameau du hibours, 1180 Montruc",19.0,4. P,10
+5,5,1775,Jeanette,Pigox,Jeanette.Pigox@dtc.de,"Boulevard de la girafouine, 50130 Cheapbourg",14.0,4. P,10
+6,6,350,Laurent,Testit,Laurent.Testit@hotme.com,"Place des curkas, 50130 Veliko Curan",128.5,4. P,18
+7,7,1798,Franck,Garcimore,Franck.Garcimore@minitel.fr,"Hameau du hibours, 1180 Staro Selo",9276.45,3. M,0
+8,8,1185,Bodgan,Pavlovic,Bodgan.Pavlovic@youpi.com,"Rue des bananes, 13370 Montruc",333.0,4. P,0
+9,9,915,Laurence,Garcimore,Laurence.Garcimore@youpi.com,"Rue des bananes, 1180 Cheapbourg",1745.0,3. M,14
+10,10,1612,Mamadou,Maricic,Mamadou.Maricic@yopmail.com,"Hameau du hibours, 50130 Montruc",5437.0,3. M,0
+11,11,1471,Jean,Garcimore,Jean.Garcimore@dtc.de,"Rue des bananes, 50130 Montruc",13364.0,2. G,0
+12,12,716,Louis,Martin,Louis.Martin@hotme.com,"Avenue des Schtroumps, 50130 Veliko Curan",17899.1,2. G,0
+13,13,4254,Laurence,Pavlovic,Laurence.Pavlovic@hotme.com,"Boulevard de la girafouine, 50130 Veliko Curan",3030.0,3. M,0
+14,14,1842,Bodgan,Kezman,Bodgan.Kezman@youpi.com,"Rue des bananes, 50130 Cheapbourg",377.0,4. P,1
+15,15,175,Jeanette,Pigox,Jeanette.Pigox@minitel.fr,"Boulevard de la girafouine, 50130 Staro Selo",14336.5,2. G,9
+16,16,1705,Laurence,Maricic,Laurence.Maricic@dtc.de,"Rue des bananes, 1180 Veliko Curan",10.0,4. P,11
+17,17,1602,Mamadou,Maricic,Mamadou.Maricic@yopmail.com,"Avenue des Schtroumps, 1180 Montruc",1455.0,4. P,0
+18,18,1271,Mamadou,Pigox,Mamadou.Pigox@youpi.com,"Place des curkas, 1180 Montruc",1057.0,4. P,3
+19,19,843,Jean,Testit,Jean.Testit@minitel.fr,"Boulevard de la girafouine, 50130 Staro Selo",6.5,4. P,20
+20,20,1719,Jeanette,Kezman,Jeanette.Kezman@dtc.de,"Rue des bananes, 1180 Cheapbourg",781.0,4. P,0
+21,21,1510,Josiane,Martin,Josiane.Martin@hotme.com,"Rue des bananes, 1180 Cheapbourg",1331.6,4. P,0
+22,22,1865,Laurence,Testit,Laurence.Testit@gjunk.com,"Place des curkas, 1180 Staro Selo",969.5,4. P,10
+23,23,1483,Bodgan,Testit,Bodgan.Testit@youpi.com,"Rue des bananes, 13370 Cheapbourg",1111.5,4. P,10
+24,24,1698,Laurent,Pavlovic,Laurent.Pavlovic@minitel.fr,"Rue des bananes, 13370 Staro Selo",617.0,4. P,1
+25,25,1396,Louis,Maricic,Louis.Maricic@gjunk.com,"Rue des bananes, 1180 Veliko Curan",661.5,4. P,7
+26,26,1890,Jean,Maricic,Jean.Maricic@gjunk.com,"Hameau du hibours, 50130 Veliko Curan",63.5,4. P,7
+27,27,954,Jeanette,Garcimore,Jeanette.Garcimore@dtc.de,"Hameau du hibours, 1180 Staro Selo",20.0,4. P,22
+28,28,1925,Mamadou,Maricic,Mamadou.Maricic@minitel.fr,"Rue des bananes, 13370 Cheapbourg",8.5,4. P,9
+29,29,1538,Jeanette,Bouillave,Jeanette.Bouillave@gjunk.com,"Boulevard de la girafouine, 13370 Montruc",555.6,4. P,1
+30,30,1056,Mamadou,Pavlovic,Mamadou.Pavlovic@yopmail.com,"Place des curkas, 50130 Veliko Curan",160.0,4. P,17
+31,31,1027,Jeanette,Testit,Jeanette.Testit@yopmail.com,"Rue des bananes, 50130 Montruc",36994.5,2. G,0
+32,32,1469,Jean,Bouillave,Jean.Bouillave@hotme.com,"Place des curkas, 13370 Staro Selo",11579.5,2. G,0
+33,33,1361,Laurence,Cule,Laurence.Cule@youpi.com,"Boulevard de la girafouine, 13370 Staro Selo",2571.5,3. M,0
+34,34,731,Josiane,Pavlovic,Josiane.Pavlovic@minitel.fr,"Boulevard de la girafouine, 1180 Montruc",185.5,4. P,19
+35,35,1414,Laurent,Maricic,Laurent.Maricic@minitel.fr,"Place des curkas, 50130 Staro Selo",199.0,4. P,10
+36,36,2732,Bodgan,Cule,Bodgan.Cule@minitel.fr,"Place des curkas, 1180 Staro Selo",10.0,4. P,6
+37,37,153,Josiane,Pavlovic,Josiane.Pavlovic@youpi.com,"Place des curkas, 1180 Veliko Curan",115.0,4. P,13
+38,38,1472,Louis,Pavlovic,Louis.Pavlovic@gjunk.com,"Avenue des Schtroumps, 13370 Cheapbourg",31.5,4. P,13
+39,39,1038,Bodgan,Bouillave,Bodgan.Bouillave@dtc.de,"Hameau du hibours, 50130 Staro Selo",694.7,4. P,20
+40,40,1738,Josiane,Cule,Josiane.Cule@youpi.com,"Place des curkas, 1180 Montruc",34631.0,2. G,0
+41,41,958,Louis,Lazare,Louis.Lazare@gjunk.com,"Rue des bananes, 1180 Montruc",1500.7,4. P,2
+42,42,1091,Laurence,Bouillave,Laurence.Bouillave@hotme.com,"Hameau du hibours, 13370 Montruc",2566.5,3. M,0
+43,43,581,Louis,Martin,Louis.Martin@hotme.com,"Rue des bananes, 1180 Montruc",1207.9,4. P,0
+44,44,1697,Marc,Garcimore,Marc.Garcimore@minitel.fr,"Place des curkas, 13370 Montruc",51.0,4. P,11
+45,45,1104,Bodgan,Testit,Bodgan.Testit@hotme.com,"Place des curkas, 1180 Montruc",26381.25,2. G,0
+46,46,1806,Marc,Testit,Marc.Testit@yopmail.com,"Avenue des Schtroumps, 13370 Veliko Curan",60.5,4. P,10
+47,47,1032,Marc,Martin,Marc.Martin@gjunk.com,"Place des curkas, 50130 Montruc",3.5,4. P,20
+48,48,1401,Louis,Pavlovic,Louis.Pavlovic@dtc.de,"Avenue des Schtroumps, 13370 Cheapbourg",265366.5,1. TG,0
+49,49,840,Josiane,Bouillave,Josiane.Bouillave@youpi.com,"Rue des bananes, 50130 Cheapbourg",75246.0,1. TG,0
+50,50,1717,Jeanette,Pigox,Jeanette.Pigox@dtc.de,"Hameau du hibours, 50130 Staro Selo",29.5,4. P,11
+51,51,279,Franck,Maricic,Franck.Maricic@youpi.com,"Place des curkas, 13370 Montruc",1914.0,3. M,0
+52,52,3306,Mamadou,Bouillave,Mamadou.Bouillave@youpi.com,"Hameau du hibours, 13370 Cheapbourg",11049.5,2. G,0
+53,53,1042,Louis,Testit,Louis.Testit@gjunk.com,"Boulevard de la girafouine, 1180 Staro Selo",3037.0,3. M,0
+54,54,1119,Josiane,Pigox,Josiane.Pigox@youpi.com,"Boulevard de la girafouine, 1180 Cheapbourg",609.0,4. P,18
+55,55,1889,Mamadou,Lazare,Mamadou.Lazare@youpi.com,"Rue des bananes, 13370 Montruc",47.0,4. P,9
+56,56,959,Laurent,Maricic,Laurent.Maricic@hotme.com,"Place des curkas, 13370 Staro Selo",27.0,4. P,21
+57,57,1726,Franck,Pigox,Franck.Pigox@minitel.fr,"Hameau du hibours, 1180 Veliko Curan",149.5,4. P,10
+58,58,1552,Mamadou,Pigox,Mamadou.Pigox@youpi.com,"Boulevard de la girafouine, 1180 Staro Selo",189.5,4. P,12
+59,59,1766,Josiane,Pigox,Josiane.Pigox@gjunk.com,"Avenue des Schtroumps, 1180 Staro Selo",214.1,4. P,9
+60,60,1087,Mamadou,Pavlovic,Mamadou.Pavlovic@gjunk.com,"Place des curkas, 13370 Staro Selo",4687.7,3. M,1
+61,61,160,Josiane,Maricic,Josiane.Maricic@minitel.fr,"Place des curkas, 1180 Montruc",62.0,4. P,1
+62,62,1512,Laurent,Pavlovic,Laurent.Pavlovic@minitel.fr,"Place des curkas, 50130 Staro Selo",1051.0,4. P,0
+63,63,961,Mamadou,Cule,Mamadou.Cule@yopmail.com,"Rue des bananes, 1180 Cheapbourg",9790.5,3. M,0
+64,64,2335,Laurent,Martin,Laurent.Martin@yopmail.com,"Place des curkas, 50130 Veliko Curan",700.5,4. P,4
+65,65,839,Josiane,Pigox,Josiane.Pigox@minitel.fr,"Place des curkas, 13370 Montruc",4.5,4. P,20
+66,66,2002,Mamadou,Pavlovic,Mamadou.Pavlovic@yopmail.com,"Place des curkas, 1180 Veliko Curan",6.0,4. P,9
+67,67,912,Louis,Pavlovic,Louis.Pavlovic@gjunk.com,"Avenue des Schtroumps, 1180 Montruc",502.5,4. P,0
+68,68,1746,Laurent,Cule,Laurent.Cule@hotme.com,"Rue des bananes, 13370 Staro Selo",8.0,4. P,10
+69,69,927,Franck,Cule,Franck.Cule@minitel.fr,"Hameau du hibours, 1180 Cheapbourg",1188.0,4. P,13
+70,70,1174,Jean,Maricic,Jean.Maricic@dtc.de,"Rue des bananes, 1180 Veliko Curan",7525.1,3. M,0
+71,71,1891,Jeanette,Garcimore,Jeanette.Garcimore@minitel.fr,"Avenue des Schtroumps, 1180 Staro Selo",103.0,4. P,9
+72,72,152,Bodgan,Pigox,Bodgan.Pigox@minitel.fr,"Place des curkas, 1180 Staro Selo",5089.5,3. M,0
+73,73,1284,Mamadou,Martin,Mamadou.Martin@youpi.com,"Place des curkas, 50130 Staro Selo",157.0,4. P,14
+74,74,1947,Mamadou,Martin,Mamadou.Martin@hotme.com,"Boulevard de la girafouine, 1180 Veliko Curan",148.5,4. P,3
+75,75,1125,Josiane,Maricic,Josiane.Maricic@minitel.fr,"Hameau du hibours, 50130 Montruc",14854.0,2. G,0
+76,76,1179,Laurence,Kezman,Laurence.Kezman@gjunk.com,"Avenue des Schtroumps, 1180 Veliko Curan",2605.0,3. M,0
+77,77,1534,Franck,Pigox,Franck.Pigox@hotme.com,"Avenue des Schtroumps, 1180 Veliko Curan",605.5,4. P,1
+78,78,1832,Louis,Cule,Louis.Cule@dtc.de,"Place des curkas, 50130 Staro Selo",17.5,4. P,10
+79,79,1055,Mamadou,Testit,Mamadou.Testit@dtc.de,"Avenue des Schtroumps, 50130 Veliko Curan",4517.55,3. M,0
+80,80,1456,Marc,Maricic,Marc.Maricic@minitel.fr,"Rue des bananes, 13370 Montruc",50.0,4. P,14
+81,81,1902,Jean,Testit,Jean.Testit@dtc.de,"Hameau du hibours, 50130 Staro Selo",341.5,4. P,0
+82,82,1557,Laurence,Martin,Laurence.Martin@youpi.com,"Rue des bananes, 13370 Staro Selo",3251.0,3. M,9
+83,83,1955,Jeanette,Bouillave,Jeanette.Bouillave@gjunk.com,"Place des curkas, 50130 Veliko Curan",265.5,4. P,9
+84,84,1410,Marc,Martin,Marc.Martin@minitel.fr,"Rue des bananes, 13370 Cheapbourg",5724.5,3. M,0
+85,85,1837,Franck,Martin,Franck.Martin@gjunk.com,"Avenue des Schtroumps, 13370 Montruc",8591.0,3. M,0
+86,86,1614,Laurent,Kezman,Laurent.Kezman@minitel.fr,"Hameau du hibours, 13370 Veliko Curan",411.5,4. P,1
+87,87,1772,Josiane,Bouillave,Josiane.Bouillave@youpi.com,"Hameau du hibours, 13370 Staro Selo",87.0,4. P,10
+88,88,755,Jeanette,Pigox,Jeanette.Pigox@youpi.com,"Boulevard de la girafouine, 50130 Cheapbourg",1145.5,4. P,11
+89,89,944,Marc,Cule,Marc.Cule@hotme.com,"Boulevard de la girafouine, 50130 Montruc",47.0,4. P,22
+90,90,1326,Laurent,Pigox,Laurent.Pigox@youpi.com,"Avenue des Schtroumps, 1180 Staro Selo",228.5,4. P,12
+91,91,491,Jeanette,Kezman,Jeanette.Kezman@minitel.fr,"Hameau du hibours, 50130 Cheapbourg",10212.5,3. M,2
+92,92,1188,Louis,Cule,Louis.Cule@minitel.fr,"Avenue des Schtroumps, 13370 Montruc",13.0,4. P,13
+93,93,1124,Laurence,Martin,Laurence.Martin@yopmail.com,"Boulevard de la girafouine, 13370 Veliko Curan",20911.0,2. G,0
+94,94,1145,Josiane,Bouillave,Josiane.Bouillave@youpi.com,"Boulevard de la girafouine, 50130 Staro Selo",1221.5,4. P,0
+95,95,194,Josiane,Garcimore,Josiane.Garcimore@minitel.fr,"Boulevard de la girafouine, 1180 Veliko Curan",2184.5,3. M,0
+96,96,103,Josiane,Lazare,Josiane.Lazare@dtc.de,"Place des curkas, 50130 Staro Selo",7198.9,3. M,0
+97,97,1078,Franck,Maricic,Franck.Maricic@gjunk.com,"Boulevard de la girafouine, 1180 Staro Selo",430.5,4. P,5
+98,98,1657,Laurence,Garcimore,Laurence.Garcimore@gjunk.com,"Boulevard de la girafouine, 13370 Cheapbourg",29.0,4. P,9
+99,99,1979,Marc,Maricic,Marc.Maricic@gjunk.com,"Boulevard de la girafouine, 1180 Montruc",326.5,4. P,9
+100,100,231,Josiane,Kezman,Josiane.Kezman@dtc.de,"Hameau du hibours, 1180 Veliko Curan",97.0,4. P,16
+101,101,942,Laurence,Martin,Laurence.Martin@yopmail.com,"Place des curkas, 1180 Montruc",26.0,4. P,22
+102,102,1097,Laurent,Lazare,Laurent.Lazare@yopmail.com,"Hameau du hibours, 13370 Staro Selo",1298.5,4. P,1
+103,103,776,Laurent,Garcimore,Laurent.Garcimore@youpi.com,"Rue des bananes, 13370 Staro Selo",26896.5,2. G,4
+104,104,1934,Mamadou,Maricic,Mamadou.Maricic@dtc.de,"Avenue des Schtroumps, 1180 Cheapbourg",41.0,4. P,10
+105,105,1438,Franck,Martin,Franck.Martin@dtc.de,"Avenue des Schtroumps, 13370 Montruc",6326.5,3. M,0
+106,106,1954,Bodgan,Lazare,Bodgan.Lazare@minitel.fr,"Rue des bananes, 13370 Veliko Curan",1202.5,4. P,8
+107,107,1694,Laurent,Pavlovic,Laurent.Pavlovic@minitel.fr,"Avenue des Schtroumps, 13370 Montruc",2234.0,3. M,6
+108,108,926,Jeanette,Pigox,Jeanette.Pigox@youpi.com,"Avenue des Schtroumps, 50130 Cheapbourg",3943.9,3. M,0
+109,109,1630,Mamadou,Maricic,Mamadou.Maricic@hotme.com,"Hameau du hibours, 1180 Staro Selo",1039.2,4. P,0
+110,110,3452,Laurence,Pigox,Laurence.Pigox@yopmail.com,"Hameau du hibours, 1180 Veliko Curan",2216.0,3. M,0
+111,111,1425,Jeanette,Pavlovic,Jeanette.Pavlovic@dtc.de,"Place des curkas, 50130 Staro Selo",408.7,4. P,5
+112,112,1367,Laurent,Martin,Laurent.Martin@youpi.com,"Rue des bananes, 50130 Staro Selo",324.4,4. P,14
+113,113,1881,Louis,Bouillave,Louis.Bouillave@yopmail.com,"Hameau du hibours, 13370 Cheapbourg",2.0,4. P,10
+114,114,1918,Jean,Lazare,Jean.Lazare@minitel.fr,"Place des curkas, 13370 Montruc",5430.5,3. M,0
+115,115,1791,Josiane,Martin,Josiane.Martin@gjunk.com,"Avenue des Schtroumps, 50130 Veliko Curan",9902.5,3. M,0
+116,116,1348,Laurence,Pigox,Laurence.Pigox@gjunk.com,"Rue des bananes, 13370 Veliko Curan",75698.5,1. TG,0
+117,117,1127,Jeanette,Martin,Jeanette.Martin@dtc.de,"Place des curkas, 50130 Cheapbourg",100.0,4. P,19
+118,118,1636,Marc,Pigox,Marc.Pigox@yopmail.com,"Place des curkas, 13370 Staro Selo",1138.0,4. P,0
+119,119,1382,Laurence,Kezman,Laurence.Kezman@youpi.com,"Boulevard de la girafouine, 1180 Staro Selo",15.0,4. P,15
+120,120,247,Marc,Pavlovic,Marc.Pavlovic@dtc.de,"Place des curkas, 1180 Montruc",1081.0,4. P,5
+121,121,686,Marc,Maricic,Marc.Maricic@yopmail.com,"Place des curkas, 1180 Montruc",3031.5,3. M,0
+122,122,1887,Jean,Lazare,Jean.Lazare@gjunk.com,"Avenue des Schtroumps, 50130 Veliko Curan",14.0,4. P,10
+123,123,1668,Marc,Cule,Marc.Cule@hotme.com,"Rue des bananes, 1180 Veliko Curan",183.0,4. P,8
+124,124,133,Louis,Lazare,Louis.Lazare@dtc.de,"Place des curkas, 1180 Veliko Curan",5569.0,3. M,0
+125,125,1172,Josiane,Bouillave,Josiane.Bouillave@gjunk.com,"Place des curkas, 50130 Montruc",2002.5,3. M,9
+126,126,221,Franck,Garcimore,Franck.Garcimore@dtc.de,"Place des curkas, 50130 Cheapbourg",3.0,4. P,21
+127,127,1796,Franck,Garcimore,Franck.Garcimore@dtc.de,"Rue des bananes, 13370 Staro Selo",42.0,4. P,10
+128,128,1105,Mamadou,Bouillave,Mamadou.Bouillave@hotme.com,"Avenue des Schtroumps, 1180 Montruc",9375.05,3. M,0
+129,129,1402,Marc,Martin,Marc.Martin@minitel.fr,"Avenue des Schtroumps, 1180 Cheapbourg",25.0,4. P,13
+130,130,1376,Franck,Martin,Franck.Martin@hotme.com,"Place des curkas, 13370 Cheapbourg",52.5,4. P,9
+131,131,1956,Bodgan,Testit,Bodgan.Testit@hotme.com,"Avenue des Schtroumps, 13370 Cheapbourg",483.0,4. P,1
+132,132,1950,Jean,Kezman,Jean.Kezman@dtc.de,"Avenue des Schtroumps, 13370 Cheapbourg",506.1,4. P,0
+133,133,673,Laurent,Pavlovic,Laurent.Pavlovic@gjunk.com,"Hameau du hibours, 13370 Staro Selo",67.7,4. P,22
+134,134,1281,Josiane,Maricic,Josiane.Maricic@minitel.fr,"Hameau du hibours, 1180 Cheapbourg",16801.5,2. G,1
+135,135,1342,Louis,Lazare,Louis.Lazare@hotme.com,"Avenue des Schtroumps, 13370 Cheapbourg",239.0,4. P,1
+136,136,1608,Laurence,Testit,Laurence.Testit@minitel.fr,"Place des curkas, 13370 Cheapbourg",58.5,4. P,11
+137,137,1687,Marc,Pigox,Marc.Pigox@minitel.fr,"Avenue des Schtroumps, 1180 Staro Selo",13.0,4. P,11
+138,138,169,Bodgan,Pavlovic,Bodgan.Pavlovic@hotme.com,"Boulevard de la girafouine, 50130 Cheapbourg",1214.5,4. P,1
+139,139,1450,Laurence,Martin,Laurence.Martin@youpi.com,"Rue des bananes, 13370 Staro Selo",7118.0,3. M,0
+140,140,1886,Marc,Testit,Marc.Testit@hotme.com,"Boulevard de la girafouine, 50130 Montruc",45.5,4. P,9
+141,141,3773,Jean,Maricic,Jean.Maricic@dtc.de,"Rue des bananes, 50130 Montruc",159.5,4. P,4
+142,142,1209,Louis,Pavlovic,Louis.Pavlovic@dtc.de,"Avenue des Schtroumps, 1180 Staro Selo",383.75,4. P,15
+143,143,1486,Bodgan,Cule,Bodgan.Cule@gjunk.com,"Boulevard de la girafouine, 13370 Cheapbourg",1249.0,4. P,1
+144,144,1931,Jean,Martin,Jean.Martin@minitel.fr,"Hameau du hibours, 50130 Veliko Curan",107.0,4. P,3
+145,145,1259,Josiane,Testit,Josiane.Testit@yopmail.com,"Boulevard de la girafouine, 1180 Montruc",476.9,4. P,0
+146,146,1735,Jeanette,Pigox,Jeanette.Pigox@yopmail.com,"Avenue des Schtroumps, 50130 Cheapbourg",7480.05,3. M,0
+147,147,249,Laurence,Martin,Laurence.Martin@minitel.fr,"Avenue des Schtroumps, 50130 Staro Selo",616.5,4. P,0
+148,148,1328,Jean,Martin,Jean.Martin@minitel.fr,"Hameau du hibours, 13370 Cheapbourg",2845.0,3. M,3
+149,149,1137,Mamadou,Bouillave,Mamadou.Bouillave@youpi.com,"Avenue des Schtroumps, 50130 Staro Selo",519.5,4. P,0
+150,150,1709,Josiane,Cule,Josiane.Cule@dtc.de,"Avenue des Schtroumps, 1180 Staro Selo",732.0,4. P,6
+151,151,1497,Laurent,Garcimore,Laurent.Garcimore@gjunk.com,"Hameau du hibours, 1180 Montruc",2526.6,3. M,0
+152,152,1202,Jeanette,Lazare,Jeanette.Lazare@minitel.fr,"Avenue des Schtroumps, 1180 Veliko Curan",1171.5,4. P,0
+153,153,471,Bodgan,Maricic,Bodgan.Maricic@youpi.com,"Rue des bananes, 13370 Cheapbourg",410.5,4. P,8
+154,154,151,Bodgan,Cule,Bodgan.Cule@gjunk.com,"Hameau du hibours, 1180 Veliko Curan",9518.0,3. M,1
+155,155,1017,Jeanette,Garcimore,Jeanette.Garcimore@hotme.com,"Boulevard de la girafouine, 50130 Staro Selo",6.0,4. P,20
+156,156,1166,Jean,Cule,Jean.Cule@gjunk.com,"Rue des bananes, 1180 Cheapbourg",37495.75,2. G,0
+157,157,1982,Franck,Testit,Franck.Testit@yopmail.com,"Place des curkas, 1180 Montruc",898.5,4. P,0
+158,158,1864,Bodgan,Garcimore,Bodgan.Garcimore@yopmail.com,"Boulevard de la girafouine, 50130 Cheapbourg",38.5,4. P,10
+159,159,1167,Bodgan,Garcimore,Bodgan.Garcimore@gjunk.com,"Avenue des Schtroumps, 50130 Montruc",106.5,4. P,15
+160,160,1428,Jean,Martin,Jean.Martin@youpi.com,"Avenue des Schtroumps, 13370 Veliko Curan",33.0,4. P,14
+161,161,566,Bodgan,Cule,Bodgan.Cule@hotme.com,"Hameau du hibours, 50130 Staro Selo",1769.5,3. M,8
+162,162,1176,Laurent,Lazare,Laurent.Lazare@yopmail.com,"Place des curkas, 13370 Montruc",790.5,4. P,0
+163,163,793,Josiane,Pigox,Josiane.Pigox@gjunk.com,"Place des curkas, 50130 Cheapbourg",19758.05,2. G,5
+164,164,991,Laurence,Pigox,Laurence.Pigox@yopmail.com,"Rue des bananes, 50130 Veliko Curan",32.0,4. P,19
+165,165,1126,Jeanette,Bouillave,Jeanette.Bouillave@hotme.com,"Hameau du hibours, 1180 Staro Selo",15.0,4. P,19
+166,166,1304,Franck,Martin,Franck.Martin@gjunk.com,"Avenue des Schtroumps, 50130 Staro Selo",299.0,4. P,8
+167,167,1423,Mamadou,Garcimore,Mamadou.Garcimore@hotme.com,"Place des curkas, 13370 Staro Selo",68.5,4. P,14
+168,168,1076,Franck,Lazare,Franck.Lazare@hotme.com,"Avenue des Schtroumps, 1180 Veliko Curan",2663.5,3. M,3
+169,169,1908,Louis,Testit,Louis.Testit@youpi.com,"Rue des bananes, 50130 Montruc",922.5,4. P,3
+170,170,430,Mamadou,Kezman,Mamadou.Kezman@dtc.de,"Place des curkas, 1180 Staro Selo",2993.5,3. M,6
+171,171,1186,Mamadou,Martin,Mamadou.Martin@hotme.com,"Avenue des Schtroumps, 50130 Cheapbourg",3189.5,3. M,1
+172,172,1315,Marc,Garcimore,Marc.Garcimore@youpi.com,"Avenue des Schtroumps, 13370 Montruc",22871.5,2. G,0
+173,173,949,Mamadou,Cule,Mamadou.Cule@dtc.de,"Place des curkas, 1180 Staro Selo",55.0,4. P,22
+174,174,1429,Jean,Maricic,Jean.Maricic@gjunk.com,"Place des curkas, 13370 Veliko Curan",33.0,4. P,14
+175,175,275,Marc,Pavlovic,Marc.Pavlovic@gjunk.com,"Avenue des Schtroumps, 13370 Cheapbourg",1334.2,4. P,0
+176,176,1466,Jeanette,Testit,Jeanette.Testit@gjunk.com,"Hameau du hibours, 13370 Montruc",80.0,4. P,11
+177,177,1894,Josiane,Martin,Josiane.Martin@yopmail.com,"Hameau du hibours, 50130 Cheapbourg",1162.0,4. P,2
+178,178,1029,Franck,Pavlovic,Franck.Pavlovic@gjunk.com,"Rue des bananes, 13370 Veliko Curan",7434.25,3. M,5
+179,179,1801,Mamadou,Pigox,Mamadou.Pigox@minitel.fr,"Rue des bananes, 50130 Veliko Curan",903.5,4. P,9
+180,180,1381,Jeanette,Martin,Jeanette.Martin@yopmail.com,"Rue des bananes, 1180 Staro Selo",44.0,4. P,15
+181,181,1251,Franck,Cule,Franck.Cule@minitel.fr,"Boulevard de la girafouine, 1180 Staro Selo",153.5,4. P,0
+182,182,1664,Franck,Pigox,Franck.Pigox@hotme.com,"Avenue des Schtroumps, 1180 Staro Selo",1066.0,4. P,8
+183,183,2001,Laurent,Martin,Laurent.Martin@youpi.com,"Place des curkas, 50130 Veliko Curan",14.0,4. P,9
+184,184,1077,Louis,Pavlovic,Louis.Pavlovic@minitel.fr,"Boulevard de la girafouine, 1180 Staro Selo",21.0,4. P,19
+185,185,1544,Laurence,Kezman,Laurence.Kezman@yopmail.com,"Place des curkas, 1180 Veliko Curan",2323.5,3. M,0
+186,186,378,Jeanette,Garcimore,Jeanette.Garcimore@yopmail.com,"Boulevard de la girafouine, 50130 Staro Selo",1208.0,4. P,13
+187,187,406,Marc,Maricic,Marc.Maricic@gjunk.com,"Place des curkas, 13370 Veliko Curan",217.0,4. P,19
+188,188,826,Louis,Garcimore,Louis.Garcimore@hotme.com,"Avenue des Schtroumps, 1180 Montruc",3170.0,3. M,0
+189,189,302,Laurence,Cule,Laurence.Cule@minitel.fr,"Place des curkas, 1180 Veliko Curan",1800.5,3. M,7
+190,190,1559,Jean,Kezman,Jean.Kezman@youpi.com,"Boulevard de la girafouine, 1180 Staro Selo",77.5,4. P,12
+191,191,1577,Bodgan,Pigox,Bodgan.Pigox@gjunk.com,"Place des curkas, 50130 Montruc",193.5,4. P,12
+192,192,1207,Marc,Testit,Marc.Testit@dtc.de,"Rue des bananes, 13370 Montruc",12604.0,2. G,0
+193,193,821,Jean,Martin,Jean.Martin@gjunk.com,"Rue des bananes, 1180 Veliko Curan",78471.5,1. TG,0
+194,194,1347,Franck,Garcimore,Franck.Garcimore@yopmail.com,"Avenue des Schtroumps, 13370 Staro Selo",934.0,4. P,13
+195,195,1674,Jeanette,Testit,Jeanette.Testit@gjunk.com,"Avenue des Schtroumps, 13370 Montruc",403.0,4. P,9
+196,196,2985,Bodgan,Martin,Bodgan.Martin@hotme.com,"Avenue des Schtroumps, 13370 Cheapbourg",14527.0,2. G,0
+197,197,354,Marc,Martin,Marc.Martin@yopmail.com,"Avenue des Schtroumps, 13370 Staro Selo",3071.0,3. M,0
+198,198,987,Bodgan,Pavlovic,Bodgan.Pavlovic@hotme.com,"Hameau du hibours, 50130 Cheapbourg",10459.0,3. M,0
+199,199,638,Jeanette,Garcimore,Jeanette.Garcimore@yopmail.com,"Boulevard de la girafouine, 1180 Veliko Curan",129.0,4. P,1
+200,200,1907,Louis,Cule,Louis.Cule@yopmail.com,"Boulevard de la girafouine, 50130 Montruc",10.0,4. P,10
+201,201,1248,Louis,Pavlovic,Louis.Pavlovic@youpi.com,"Rue des bananes, 13370 Cheapbourg",24872.0,2. G,0
+202,202,2881,Laurent,Testit,Laurent.Testit@youpi.com,"Avenue des Schtroumps, 50130 Veliko Curan",12344.5,2. G,0
+203,203,1053,Louis,Testit,Louis.Testit@hotme.com,"Rue des bananes, 13370 Veliko Curan",77.5,4. P,0
+204,204,1615,Bodgan,Kezman,Bodgan.Kezman@hotme.com,"Boulevard de la girafouine, 13370 Montruc",131908.0,1. TG,0
+205,205,1744,Jeanette,Kezman,Jeanette.Kezman@yopmail.com,"Hameau du hibours, 50130 Cheapbourg",98.0,4. P,10
+206,206,930,Josiane,Bouillave,Josiane.Bouillave@youpi.com,"Boulevard de la girafouine, 1180 Veliko Curan",15.0,4. P,12
+207,207,1937,Marc,Martin,Marc.Martin@dtc.de,"Rue des bananes, 13370 Cheapbourg",10.0,4. P,10
+208,208,996,Louis,Garcimore,Louis.Garcimore@minitel.fr,"Place des curkas, 1180 Cheapbourg",3701.25,3. M,17
+209,209,1802,Louis,Garcimore,Louis.Garcimore@dtc.de,"Avenue des Schtroumps, 1180 Cheapbourg",758.0,4. P,0
+210,210,1106,Marc,Maricic,Marc.Maricic@minitel.fr,"Place des curkas, 1180 Staro Selo",5168.5,3. M,2
+211,211,1900,Marc,Martin,Marc.Martin@youpi.com,"Place des curkas, 13370 Staro Selo",393.5,4. P,0
+212,212,687,Laurent,Garcimore,Laurent.Garcimore@yopmail.com,"Hameau du hibours, 13370 Cheapbourg",117.0,4. P,10
+213,213,1760,Marc,Lazare,Marc.Lazare@dtc.de,"Rue des bananes, 50130 Veliko Curan",1006.5,4. P,0
+214,214,1006,Josiane,Bouillave,Josiane.Bouillave@yopmail.com,"Hameau du hibours, 1180 Staro Selo",372.0,4. P,0
+215,215,1722,Bodgan,Pavlovic,Bodgan.Pavlovic@gjunk.com,"Place des curkas, 50130 Montruc",425.0,4. P,7
+216,216,1961,Mamadou,Testit,Mamadou.Testit@gjunk.com,"Hameau du hibours, 13370 Veliko Curan",10075.0,3. M,3
+217,217,1778,Jeanette,Martin,Jeanette.Martin@yopmail.com,"Avenue des Schtroumps, 50130 Cheapbourg",26.0,4. P,10
+218,218,1652,Josiane,Cule,Josiane.Cule@youpi.com,"Boulevard de la girafouine, 13370 Staro Selo",725.0,4. P,0
+219,219,970,Laurence,Bouillave,Laurence.Bouillave@yopmail.com,"Rue des bananes, 1180 Cheapbourg",61.0,4. P,10
+220,220,1621,Bodgan,Bouillave,Bodgan.Bouillave@minitel.fr,"Rue des bananes, 13370 Veliko Curan",590.0,4. P,11
+221,221,1773,Laurence,Martin,Laurence.Martin@minitel.fr,"Avenue des Schtroumps, 50130 Staro Selo",1969.0,3. M,10
+222,222,1667,Jeanette,Lazare,Jeanette.Lazare@dtc.de,"Hameau du hibours, 13370 Montruc",1011.0,4. P,11
+223,223,1861,Jeanette,Pigox,Jeanette.Pigox@dtc.de,"Boulevard de la girafouine, 13370 Montruc",157.65,4. P,10
+224,224,1988,Marc,Lazare,Marc.Lazare@dtc.de,"Avenue des Schtroumps, 13370 Veliko Curan",51.0,4. P,9
+225,225,1550,Jean,Lazare,Jean.Lazare@hotme.com,"Rue des bananes, 13370 Veliko Curan",159245.0,1. TG,9
+226,226,1762,Marc,Lazare,Marc.Lazare@gjunk.com,"Boulevard de la girafouine, 50130 Staro Selo",62.0,4. P,9
+227,227,1991,Jean,Pigox,Jean.Pigox@dtc.de,"Place des curkas, 50130 Staro Selo",1572.0,4. P,0
+228,228,1845,Bodgan,Bouillave,Bodgan.Bouillave@hotme.com,"Place des curkas, 50130 Montruc",844.3,4. P,1
+229,229,1543,Jean,Testit,Jean.Testit@yopmail.com,"Rue des bananes, 50130 Veliko Curan",17087.0,2. G,8
+230,230,1573,Jeanette,Bouillave,Jeanette.Bouillave@dtc.de,"Rue des bananes, 1180 Staro Selo",614.0,4. P,8
+231,231,1507,Mamadou,Lazare,Mamadou.Lazare@yopmail.com,"Place des curkas, 13370 Staro Selo",1469.5,4. P,0
+232,232,3164,Franck,Lazare,Franck.Lazare@yopmail.com,"Rue des bananes, 13370 Staro Selo",38001.0,2. G,0
+233,233,1385,Franck,Testit,Franck.Testit@youpi.com,"Avenue des Schtroumps, 13370 Montruc",2206.7,3. M,1
+234,234,1893,Mamadou,Maricic,Mamadou.Maricic@youpi.com,"Place des curkas, 13370 Montruc",8.0,4. P,10
+235,235,2114,Franck,Pigox,Franck.Pigox@gjunk.com,"Hameau du hibours, 13370 Staro Selo",6394.0,3. M,7
+236,236,1812,Jeanette,Martin,Jeanette.Martin@youpi.com,"Place des curkas, 50130 Montruc",9511.5,3. M,2
+237,237,3265,Laurence,Lazare,Laurence.Lazare@minitel.fr,"Hameau du hibours, 13370 Staro Selo",382.0,4. P,3
+238,238,1701,Laurent,Garcimore,Laurent.Garcimore@dtc.de,"Place des curkas, 1180 Cheapbourg",113.0,4. P,11
+239,239,1964,Louis,Testit,Louis.Testit@youpi.com,"Hameau du hibours, 50130 Cheapbourg",37.5,4. P,10
+240,240,802,Louis,Pavlovic,Louis.Pavlovic@dtc.de,"Avenue des Schtroumps, 50130 Cheapbourg",1695.5,3. M,18
+241,241,925,Mamadou,Pigox,Mamadou.Pigox@dtc.de,"Place des curkas, 1180 Cheapbourg",4979.5,3. M,0
+242,242,1618,Laurent,Maricic,Laurent.Maricic@gjunk.com,"Hameau du hibours, 1180 Veliko Curan",549.6,4. P,0
+243,243,917,Laurent,Maricic,Laurent.Maricic@dtc.de,"Place des curkas, 1180 Staro Selo",1023.5,4. P,0
+244,244,1924,Louis,Testit,Louis.Testit@dtc.de,"Rue des bananes, 13370 Staro Selo",203.0,4. P,7
+245,245,1157,Franck,Martin,Franck.Martin@yopmail.com,"Hameau du hibours, 1180 Staro Selo",251.0,4. P,0
+246,246,1394,Jeanette,Pigox,Jeanette.Pigox@youpi.com,"Avenue des Schtroumps, 1180 Staro Selo",5780.5,3. M,2
+247,247,95,Laurent,Garcimore,Laurent.Garcimore@minitel.fr,"Hameau du hibours, 13370 Cheapbourg",3405.5,3. M,0
+248,248,1601,Louis,Garcimore,Louis.Garcimore@gjunk.com,"Boulevard de la girafouine, 13370 Montruc",90.0,4. P,8
+249,249,341,Jean,Pigox,Jean.Pigox@yopmail.com,"Avenue des Schtroumps, 13370 Cheapbourg",20.0,4. P,1
+250,250,1108,Louis,Martin,Louis.Martin@hotme.com,"Boulevard de la girafouine, 50130 Montruc",1159.0,4. P,16
+251,251,1086,Louis,Pavlovic,Louis.Pavlovic@minitel.fr,"Place des curkas, 13370 Montruc",811.3,4. P,14
+252,252,1914,Laurence,Pigox,Laurence.Pigox@yopmail.com,"Rue des bananes, 1180 Cheapbourg",11140.4,2. G,0
+253,253,2186,Laurence,Testit,Laurence.Testit@gjunk.com,"Boulevard de la girafouine, 50130 Cheapbourg",17979.0,2. G,0
+254,254,1877,Laurence,Martin,Laurence.Martin@gjunk.com,"Avenue des Schtroumps, 50130 Veliko Curan",10.0,4. P,10
+255,255,1026,Louis,Lazare,Louis.Lazare@minitel.fr,"Place des curkas, 1180 Montruc",2201.0,3. M,0
+256,256,736,Jeanette,Cule,Jeanette.Cule@minitel.fr,"Hameau du hibours, 1180 Staro Selo",7010.3,3. M,4
+257,257,534,Franck,Bouillave,Franck.Bouillave@youpi.com,"Rue des bananes, 13370 Montruc",980.0,4. P,2
+258,258,1364,Mamadou,Maricic,Mamadou.Maricic@dtc.de,"Boulevard de la girafouine, 1180 Staro Selo",21890.5,2. G,5
+259,259,1800,Marc,Lazare,Marc.Lazare@yopmail.com,"Boulevard de la girafouine, 13370 Staro Selo",437.0,4. P,0
+260,260,1120,Bodgan,Lazare,Bodgan.Lazare@yopmail.com,"Place des curkas, 1180 Cheapbourg",27447.0,2. G,0
+261,261,1008,Louis,Pigox,Louis.Pigox@minitel.fr,"Avenue des Schtroumps, 13370 Montruc",8419.0,3. M,0
+262,262,1338,Bodgan,Garcimore,Bodgan.Garcimore@dtc.de,"Hameau du hibours, 1180 Staro Selo",4060.0,3. M,0
+263,263,1217,Jean,Lazare,Jean.Lazare@dtc.de,"Hameau du hibours, 50130 Veliko Curan",1247.5,4. P,0
+264,264,1734,Bodgan,Garcimore,Bodgan.Garcimore@yopmail.com,"Place des curkas, 13370 Staro Selo",10.0,4. P,11
+265,265,414,Mamadou,Martin,Mamadou.Martin@dtc.de,"Rue des bananes, 1180 Veliko Curan",373.1,4. P,16
+266,266,1830,Franck,Martin,Franck.Martin@youpi.com,"Avenue des Schtroumps, 13370 Montruc",17.0,4. P,10
+267,267,1321,Jean,Kezman,Jean.Kezman@minitel.fr,"Rue des bananes, 13370 Cheapbourg",1328.5,4. P,1
+268,268,2722,Jean,Bouillave,Jean.Bouillave@hotme.com,"Avenue des Schtroumps, 1180 Cheapbourg",51495.5,1. TG,0
+269,269,1909,Louis,Pavlovic,Louis.Pavlovic@hotme.com,"Rue des bananes, 50130 Cheapbourg",7868.5,3. M,3
+270,270,1584,Marc,Lazare,Marc.Lazare@youpi.com,"Place des curkas, 1180 Veliko Curan",53257.5,1. TG,0
+271,271,1308,Franck,Kezman,Franck.Kezman@hotme.com,"Avenue des Schtroumps, 13370 Montruc",24.0,4. P,16
+272,272,1283,Mamadou,Cule,Mamadou.Cule@minitel.fr,"Hameau du hibours, 13370 Veliko Curan",1808.5,3. M,0
+273,273,320,Franck,Kezman,Franck.Kezman@minitel.fr,"Rue des bananes, 50130 Montruc",493.85,4. P,1
+274,274,1253,Laurent,Kezman,Laurent.Kezman@gjunk.com,"Boulevard de la girafouine, 13370 Montruc",60.5,4. P,14
+275,275,940,Josiane,Pavlovic,Josiane.Pavlovic@gjunk.com,"Rue des bananes, 50130 Veliko Curan",25.0,4. P,22
+276,276,1007,Laurence,Pavlovic,Laurence.Pavlovic@yopmail.com,"Avenue des Schtroumps, 13370 Montruc",705.0,4. P,12
+277,277,2153,Laurent,Cule,Laurent.Cule@hotme.com,"Avenue des Schtroumps, 1180 Staro Selo",16787.5,2. G,0
+278,278,1655,Franck,Pigox,Franck.Pigox@gjunk.com,"Avenue des Schtroumps, 1180 Staro Selo",41.0,4. P,10
+279,279,1651,Louis,Bouillave,Louis.Bouillave@dtc.de,"Rue des bananes, 50130 Montruc",177.0,4. P,3
+280,280,1578,Marc,Lazare,Marc.Lazare@dtc.de,"Avenue des Schtroumps, 1180 Staro Selo",1290439.0,1. TG,0
+281,281,1606,Jeanette,Martin,Jeanette.Martin@minitel.fr,"Hameau du hibours, 1180 Cheapbourg",132.0,4. P,1
+282,282,813,Bodgan,Pigox,Bodgan.Pigox@yopmail.com,"Rue des bananes, 50130 Veliko Curan",2255.0,3. M,0
+283,283,1739,Jeanette,Bouillave,Jeanette.Bouillave@dtc.de,"Place des curkas, 50130 Veliko Curan",6969.0,3. M,0
+284,284,1754,Franck,Lazare,Franck.Lazare@minitel.fr,"Avenue des Schtroumps, 13370 Staro Selo",41.5,4. P,10
+285,285,1625,Franck,Maricic,Franck.Maricic@yopmail.com,"Boulevard de la girafouine, 50130 Cheapbourg",729.4,4. P,2
+286,286,1826,Louis,Testit,Louis.Testit@youpi.com,"Hameau du hibours, 1180 Cheapbourg",704.0,4. P,0
+287,287,1018,Franck,Garcimore,Franck.Garcimore@yopmail.com,"Place des curkas, 1180 Cheapbourg",6987.2,3. M,0
+288,288,1779,Laurence,Testit,Laurence.Testit@gjunk.com,"Place des curkas, 13370 Staro Selo",10.0,4. P,10
+289,289,1939,Marc,Lazare,Marc.Lazare@minitel.fr,"Hameau du hibours, 50130 Staro Selo",9.0,4. P,10
+290,290,1672,Laurence,Pavlovic,Laurence.Pavlovic@minitel.fr,"Place des curkas, 13370 Staro Selo",2272.0,3. M,0
+291,291,1064,Franck,Cule,Franck.Cule@hotme.com,"Boulevard de la girafouine, 1180 Veliko Curan",180401.5,1. TG,0
+292,292,1024,Laurent,Pavlovic,Laurent.Pavlovic@minitel.fr,"Place des curkas, 13370 Staro Selo",1909.0,3. M,17
+293,293,2266,Louis,Pigox,Louis.Pigox@gjunk.com,"Avenue des Schtroumps, 1180 Montruc",5461.5,3. M,0
+294,294,90,Franck,Bouillave,Franck.Bouillave@youpi.com,"Place des curkas, 1180 Staro Selo",432.5,4. P,5
+295,295,1352,Louis,Martin,Louis.Martin@minitel.fr,"Rue des bananes, 1180 Montruc",6686.5,3. M,3
+296,296,1659,Jeanette,Bouillave,Jeanette.Bouillave@yopmail.com,"Place des curkas, 13370 Cheapbourg",790.5,4. P,7
+297,297,1153,Franck,Cule,Franck.Cule@yopmail.com,"Boulevard de la girafouine, 13370 Montruc",110749.2,1. TG,0
+298,298,1171,Franck,Testit,Franck.Testit@youpi.com,"Avenue des Schtroumps, 50130 Montruc",4506.2,3. M,1
+299,299,1598,Mamadou,Testit,Mamadou.Testit@youpi.com,"Avenue des Schtroumps, 1180 Staro Selo",18.0,4. P,11
+300,300,1711,Marc,Martin,Marc.Martin@minitel.fr,"Boulevard de la girafouine, 1180 Veliko Curan",55.0,4. P,7
+301,301,795,Laurent,Kezman,Laurent.Kezman@hotme.com,"Place des curkas, 13370 Montruc",384.5,4. P,2
+302,302,1314,Franck,Martin,Franck.Martin@dtc.de,"Avenue des Schtroumps, 1180 Cheapbourg",3066.85,3. M,1
+303,303,1075,Mamadou,Cule,Mamadou.Cule@yopmail.com,"Hameau du hibours, 1180 Veliko Curan",420.5,4. P,1
+304,304,1745,Louis,Martin,Louis.Martin@minitel.fr,"Place des curkas, 50130 Staro Selo",794.5,4. P,1
+305,305,1803,Louis,Garcimore,Louis.Garcimore@youpi.com,"Place des curkas, 50130 Cheapbourg",10.0,4. P,10
+306,306,1037,Bodgan,Lazare,Bodgan.Lazare@minitel.fr,"Rue des bananes, 13370 Veliko Curan",5583.7,3. M,0
+307,307,1899,Laurent,Pigox,Laurent.Pigox@gjunk.com,"Rue des bananes, 1180 Montruc",49.0,4. P,1
+308,308,1685,Mamadou,Kezman,Mamadou.Kezman@hotme.com,"Rue des bananes, 13370 Cheapbourg",4170.5,3. M,0
+309,309,1311,Mamadou,Garcimore,Mamadou.Garcimore@gjunk.com,"Avenue des Schtroumps, 1180 Veliko Curan",31.6,4. P,16
+310,310,398,Laurent,Bouillave,Laurent.Bouillave@minitel.fr,"Place des curkas, 13370 Cheapbourg",5.0,4. P,20
+311,311,1206,Marc,Pavlovic,Marc.Pavlovic@yopmail.com,"Hameau du hibours, 50130 Montruc",5118.0,3. M,0
+312,312,507,Laurence,Kezman,Laurence.Kezman@yopmail.com,"Rue des bananes, 50130 Veliko Curan",214.0,4. P,0
+313,313,1175,Jeanette,Garcimore,Jeanette.Garcimore@hotme.com,"Boulevard de la girafouine, 13370 Veliko Curan",597.5,4. P,1
+314,314,1140,Laurence,Pigox,Laurence.Pigox@yopmail.com,"Hameau du hibours, 13370 Staro Selo",36.5,4. P,13
+315,315,1634,Louis,Cule,Louis.Cule@gjunk.com,"Hameau du hibours, 13370 Montruc",37.0,4. P,8
+316,316,1142,Marc,Martin,Marc.Martin@dtc.de,"Boulevard de la girafouine, 50130 Cheapbourg",2844.0,3. M,8
+317,317,379,Bodgan,Lazare,Bodgan.Lazare@yopmail.com,"Hameau du hibours, 50130 Staro Selo",340.15,4. P,7
+318,318,1765,Jean,Martin,Jean.Martin@youpi.com,"Place des curkas, 50130 Veliko Curan",478.0,4. P,0
+319,319,1844,Laurent,Cule,Laurent.Cule@dtc.de,"Hameau du hibours, 13370 Veliko Curan",52.5,4. P,10
+320,320,1953,Laurent,Kezman,Laurent.Kezman@youpi.com,"Boulevard de la girafouine, 13370 Montruc",21.0,4. P,10
+321,321,1619,Mamadou,Pavlovic,Mamadou.Pavlovic@youpi.com,"Rue des bananes, 1180 Staro Selo",707.5,4. P,6
+322,322,1807,Laurent,Bouillave,Laurent.Bouillave@minitel.fr,"Place des curkas, 13370 Montruc",178.5,4. P,8
+323,323,1448,Bodgan,Pavlovic,Bodgan.Pavlovic@minitel.fr,"Rue des bananes, 13370 Veliko Curan",1152.5,4. P,6
+324,324,1113,Jean,Lazare,Jean.Lazare@hotme.com,"Rue des bananes, 50130 Cheapbourg",22129.0,2. G,0
+325,325,1118,Josiane,Pigox,Josiane.Pigox@dtc.de,"Avenue des Schtroumps, 1180 Staro Selo",125.0,4. P,13
+326,326,1193,Mamadou,Pigox,Mamadou.Pigox@youpi.com,"Hameau du hibours, 1180 Montruc",496.0,4. P,6
+327,327,1096,Marc,Lazare,Marc.Lazare@minitel.fr,"Hameau du hibours, 1180 Montruc",170.5,4. P,8
+328,328,1300,Laurent,Testit,Laurent.Testit@minitel.fr,"Hameau du hibours, 50130 Cheapbourg",119.0,4. P,16
+329,329,1631,Josiane,Maricic,Josiane.Maricic@gjunk.com,"Hameau du hibours, 50130 Staro Selo",53.5,4. P,10
+330,330,1434,Franck,Testit,Franck.Testit@dtc.de,"Boulevard de la girafouine, 1180 Cheapbourg",2345.0,3. M,0
+331,331,374,Jean,Pigox,Jean.Pigox@gjunk.com,"Hameau du hibours, 13370 Veliko Curan",341.35,4. P,10
+332,332,1984,Laurent,Lazare,Laurent.Lazare@gjunk.com,"Place des curkas, 50130 Montruc",121.0,4. P,2
+333,333,1067,Louis,Lazare,Louis.Lazare@youpi.com,"Rue des bananes, 1180 Cheapbourg",18608.1,2. G,0
+334,334,1263,Franck,Maricic,Franck.Maricic@hotme.com,"Hameau du hibours, 50130 Staro Selo",228.0,4. P,0
+335,335,1046,Louis,Pavlovic,Louis.Pavlovic@yopmail.com,"Avenue des Schtroumps, 50130 Veliko Curan",157.5,4. P,9
+336,336,1758,Laurence,Testit,Laurence.Testit@youpi.com,"Avenue des Schtroumps, 13370 Staro Selo",284.0,4. P,7
+337,337,1132,Franck,Testit,Franck.Testit@yopmail.com,"Boulevard de la girafouine, 13370 Veliko Curan",50.0,4. P,6
+338,338,1548,Marc,Cule,Marc.Cule@minitel.fr,"Avenue des Schtroumps, 1180 Montruc",1850.0,3. M,8
+339,339,306,Louis,Maricic,Louis.Maricic@hotme.com,"Hameau du hibours, 13370 Cheapbourg",26.0,4. P,16
+340,340,96,Louis,Martin,Louis.Martin@yopmail.com,"Boulevard de la girafouine, 50130 Montruc",541.5,4. P,0
+341,341,1585,Bodgan,Garcimore,Bodgan.Garcimore@minitel.fr,"Rue des bananes, 13370 Staro Selo",2347.5,3. M,1
+342,342,1378,Jeanette,Kezman,Jeanette.Kezman@yopmail.com,"Avenue des Schtroumps, 1180 Staro Selo",97.0,4. P,15
+343,343,1379,Laurent,Bouillave,Laurent.Bouillave@youpi.com,"Place des curkas, 1180 Montruc",238.5,4. P,14
+344,344,1116,Mamadou,Lazare,Mamadou.Lazare@yopmail.com,"Hameau du hibours, 13370 Cheapbourg",3675.0,3. M,0
+345,345,1673,Franck,Kezman,Franck.Kezman@dtc.de,"Place des curkas, 13370 Cheapbourg",10079.0,3. M,0
+346,346,1854,Marc,Maricic,Marc.Maricic@minitel.fr,"Avenue des Schtroumps, 50130 Cheapbourg",23292.95,2. G,0
+347,347,1724,Mamadou,Testit,Mamadou.Testit@gjunk.com,"Avenue des Schtroumps, 13370 Cheapbourg",10.0,4. P,11
+348,348,271,Franck,Bouillave,Franck.Bouillave@youpi.com,"Place des curkas, 13370 Veliko Curan",8039.5,3. M,0
+349,349,1398,Louis,Lazare,Louis.Lazare@youpi.com,"Hameau du hibours, 50130 Cheapbourg",102.2,4. P,14
+350,350,1838,Bodgan,Cule,Bodgan.Cule@hotme.com,"Boulevard de la girafouine, 1180 Veliko Curan",215.0,4. P,10
+351,351,799,Louis,Cule,Louis.Cule@hotme.com,"Hameau du hibours, 13370 Montruc",51.0,4. P,12
+352,352,1102,Josiane,Martin,Josiane.Martin@dtc.de,"Hameau du hibours, 50130 Staro Selo",3667.0,3. M,6
+353,353,1730,Franck,Maricic,Franck.Maricic@youpi.com,"Boulevard de la girafouine, 13370 Montruc",2363.0,3. M,6
+354,354,1499,Franck,Bouillave,Franck.Bouillave@yopmail.com,"Boulevard de la girafouine, 50130 Cheapbourg",3909.9,3. M,0
+355,355,1072,Laurence,Pigox,Laurence.Pigox@gjunk.com,"Place des curkas, 13370 Staro Selo",9561.5,3. M,0
+356,356,715,Mamadou,Martin,Mamadou.Martin@dtc.de,"Rue des bananes, 1180 Montruc",1881.0,3. M,0
+357,357,1926,Josiane,Garcimore,Josiane.Garcimore@hotme.com,"Hameau du hibours, 1180 Cheapbourg",227.5,4. P,6
+358,358,202,Josiane,Pigox,Josiane.Pigox@youpi.com,"Hameau du hibours, 50130 Veliko Curan",71.0,4. P,14
+359,359,1194,Josiane,Pavlovic,Josiane.Pavlovic@youpi.com,"Hameau du hibours, 13370 Cheapbourg",59589.0,1. TG,0
+360,360,1994,Laurence,Maricic,Laurence.Maricic@minitel.fr,"Avenue des Schtroumps, 50130 Staro Selo",1295.0,4. P,0
+361,361,1400,Mamadou,Testit,Mamadou.Testit@gjunk.com,"Boulevard de la girafouine, 1180 Cheapbourg",145.0,4. P,13
+362,362,1654,Laurence,Maricic,Laurence.Maricic@minitel.fr,"Boulevard de la girafouine, 50130 Montruc",80.0,4. P,2
+363,363,1305,Louis,Martin,Louis.Martin@minitel.fr,"Avenue des Schtroumps, 1180 Veliko Curan",16.0,4. P,16
+364,364,1043,Jeanette,Lazare,Jeanette.Lazare@yopmail.com,"Hameau du hibours, 1180 Staro Selo",50559.0,2. G,0
+365,365,77,Louis,Pigox,Louis.Pigox@minitel.fr,"Rue des bananes, 1180 Veliko Curan",144.5,4. P,5
+366,366,1764,Bodgan,Martin,Bodgan.Martin@gjunk.com,"Place des curkas, 13370 Veliko Curan",6231.5,3. M,0
+367,367,1949,Bodgan,Pavlovic,Bodgan.Pavlovic@gjunk.com,"Place des curkas, 13370 Staro Selo",1805.5,3. M,0
+368,368,1366,Franck,Martin,Franck.Martin@youpi.com,"Rue des bananes, 13370 Montruc",9.5,4. P,14
+369,369,1178,Laurence,Testit,Laurence.Testit@minitel.fr,"Hameau du hibours, 13370 Cheapbourg",2686.0,3. M,11
+370,370,1068,Laurence,Maricic,Laurence.Maricic@youpi.com,"Hameau du hibours, 13370 Veliko Curan",206.6,4. P,11
+371,371,1741,Franck,Pigox,Franck.Pigox@minitel.fr,"Boulevard de la girafouine, 1180 Montruc",9589.5,3. M,0
+372,372,1833,Mamadou,Testit,Mamadou.Testit@yopmail.com,"Place des curkas, 13370 Staro Selo",3940.5,3. M,8
+373,373,1442,Mamadou,Martin,Mamadou.Martin@yopmail.com,"Place des curkas, 50130 Staro Selo",3950.0,3. M,0
+374,374,1752,Laurence,Garcimore,Laurence.Garcimore@hotme.com,"Place des curkas, 50130 Cheapbourg",854.5,4. P,0
+375,375,1487,Josiane,Pavlovic,Josiane.Pavlovic@hotme.com,"Boulevard de la girafouine, 50130 Veliko Curan",1681.5,3. M,9
+376,376,828,Marc,Martin,Marc.Martin@hotme.com,"Avenue des Schtroumps, 13370 Veliko Curan",2242.0,3. M,0
+377,377,642,Marc,Lazare,Marc.Lazare@minitel.fr,"Hameau du hibours, 1180 Montruc",194.5,4. P,1
+378,378,1244,Jeanette,Testit,Jeanette.Testit@yopmail.com,"Hameau du hibours, 13370 Veliko Curan",38.0,4. P,1
+379,379,79,Franck,Testit,Franck.Testit@yopmail.com,"Avenue des Schtroumps, 13370 Veliko Curan",3165.7,3. M,1
+380,380,1708,Franck,Testit,Franck.Testit@youpi.com,"Avenue des Schtroumps, 50130 Cheapbourg",360.0,4. P,0
+381,381,1683,Jean,Lazare,Jean.Lazare@gjunk.com,"Rue des bananes, 13370 Montruc",8078.5,3. M,0
+382,382,1052,Franck,Pigox,Franck.Pigox@minitel.fr,"Avenue des Schtroumps, 50130 Staro Selo",71.0,4. P,1
+383,383,1732,Josiane,Kezman,Josiane.Kezman@yopmail.com,"Place des curkas, 1180 Cheapbourg",8107.6,3. M,0
+384,384,1878,Louis,Lazare,Louis.Lazare@yopmail.com,"Avenue des Schtroumps, 1180 Staro Selo",10.0,4. P,10
+385,385,1365,Bodgan,Testit,Bodgan.Testit@dtc.de,"Boulevard de la girafouine, 1180 Staro Selo",66.0,4. P,0
+386,386,1187,Mamadou,Martin,Mamadou.Martin@dtc.de,"Rue des bananes, 50130 Veliko Curan",788.0,4. P,1
+387,387,105,Mamadou,Testit,Mamadou.Testit@yopmail.com,"Hameau du hibours, 13370 Staro Selo",6223.5,3. M,0
+388,388,1588,Mamadou,Bouillave,Mamadou.Bouillave@youpi.com,"Hameau du hibours, 50130 Cheapbourg",51.5,4. P,6
+389,389,168,Josiane,Garcimore,Josiane.Garcimore@minitel.fr,"Boulevard de la girafouine, 50130 Cheapbourg",18191.8,2. G,1
+390,390,211,Josiane,Kezman,Josiane.Kezman@dtc.de,"Place des curkas, 13370 Staro Selo",326.9,4. P,0
+391,391,728,Josiane,Cule,Josiane.Cule@minitel.fr,"Place des curkas, 13370 Montruc",532.5,4. P,15
+392,392,995,Jean,Kezman,Jean.Kezman@minitel.fr,"Avenue des Schtroumps, 1180 Veliko Curan",72831.55,1. TG,2
+393,393,1831,Marc,Cule,Marc.Cule@youpi.com,"Hameau du hibours, 13370 Veliko Curan",95.0,4. P,9
+394,394,1904,Bodgan,Martin,Bodgan.Martin@gjunk.com,"Hameau du hibours, 1180 Veliko Curan",10.0,4. P,10
+395,395,1804,Franck,Lazare,Franck.Lazare@dtc.de,"Rue des bananes, 50130 Montruc",568.0,4. P,3
+396,396,1249,Marc,Maricic,Marc.Maricic@gjunk.com,"Rue des bananes, 50130 Veliko Curan",4428.0,3. M,0
+397,397,1929,Franck,Lazare,Franck.Lazare@youpi.com,"Avenue des Schtroumps, 50130 Cheapbourg",36.5,4. P,10
+398,398,1369,Louis,Testit,Louis.Testit@gjunk.com,"Hameau du hibours, 50130 Montruc",5705.15,3. M,0
+399,399,787,Bodgan,Pavlovic,Bodgan.Pavlovic@minitel.fr,"Hameau du hibours, 1180 Veliko Curan",542.0,4. P,0
+400,400,1147,Laurence,Cule,Laurence.Cule@minitel.fr,"Place des curkas, 50130 Veliko Curan",24163.0,2. G,15
+401,401,1862,Marc,Cule,Marc.Cule@youpi.com,"Rue des bananes, 1180 Veliko Curan",91.5,4. P,9
+402,402,1030,Laurence,Garcimore,Laurence.Garcimore@hotme.com,"Place des curkas, 1180 Staro Selo",20.0,4. P,20
+403,403,1839,Mamadou,Maricic,Mamadou.Maricic@gjunk.com,"Avenue des Schtroumps, 13370 Staro Selo",17.0,4. P,10
+404,404,1985,Mamadou,Kezman,Mamadou.Kezman@hotme.com,"Boulevard de la girafouine, 50130 Veliko Curan",92.0,4. P,8
+405,405,2408,Bodgan,Maricic,Bodgan.Maricic@minitel.fr,"Hameau du hibours, 13370 Veliko Curan",3423.0,3. M,4
+406,406,1841,Louis,Garcimore,Louis.Garcimore@yopmail.com,"Hameau du hibours, 13370 Veliko Curan",337.5,4. P,1
+407,407,1755,Laurence,Pavlovic,Laurence.Pavlovic@hotme.com,"Boulevard de la girafouine, 1180 Montruc",2.0,4. P,10
+408,408,1475,Josiane,Maricic,Josiane.Maricic@gjunk.com,"Place des curkas, 13370 Staro Selo",18.0,4. P,13
+409,409,1895,Franck,Kezman,Franck.Kezman@minitel.fr,"Avenue des Schtroumps, 1180 Staro Selo",2.5,4. P,10
+410,410,1462,Louis,Cule,Louis.Cule@dtc.de,"Place des curkas, 1180 Cheapbourg",2356.0,3. M,2
+411,411,1795,Jean,Lazare,Jean.Lazare@hotme.com,"Avenue des Schtroumps, 50130 Montruc",714.0,4. P,0
+412,412,1848,Jeanette,Pigox,Jeanette.Pigox@gjunk.com,"Hameau du hibours, 1180 Veliko Curan",28.5,4. P,10
+413,413,1789,Laurence,Pigox,Laurence.Pigox@yopmail.com,"Rue des bananes, 1180 Cheapbourg",24205.5,2. G,2
+414,414,1004,Louis,Bouillave,Louis.Bouillave@youpi.com,"Hameau du hibours, 50130 Veliko Curan",582.0,4. P,0
+415,415,1725,Marc,Maricic,Marc.Maricic@gjunk.com,"Hameau du hibours, 13370 Montruc",43.0,4. P,11
+416,416,1533,Jeanette,Pigox,Jeanette.Pigox@dtc.de,"Hameau du hibours, 50130 Veliko Curan",17.5,4. P,12
+417,417,1696,Jean,Pigox,Jean.Pigox@gjunk.com,"Place des curkas, 13370 Staro Selo",259.0,4. P,3
+418,418,709,Franck,Testit,Franck.Testit@youpi.com,"Hameau du hibours, 13370 Staro Selo",3863.5,3. M,0
+419,419,1408,Jeanette,Bouillave,Jeanette.Bouillave@hotme.com,"Avenue des Schtroumps, 1180 Cheapbourg",4593.5,3. M,0
+420,420,1099,Marc,Cule,Marc.Cule@yopmail.com,"Place des curkas, 50130 Staro Selo",3571.5,3. M,1
+421,421,1856,Jean,Martin,Jean.Martin@gjunk.com,"Boulevard de la girafouine, 1180 Staro Selo",8.0,4. P,10
+422,422,1981,Jeanette,Pavlovic,Jeanette.Pavlovic@minitel.fr,"Place des curkas, 1180 Staro Selo",3232.5,3. M,1
+423,423,1906,Franck,Martin,Franck.Martin@gjunk.com,"Hameau du hibours, 50130 Montruc",115.0,4. P,9
+424,424,1066,Jean,Lazare,Jean.Lazare@youpi.com,"Place des curkas, 1180 Staro Selo",746.0,4. P,15
+425,425,1695,Laurent,Lazare,Laurent.Lazare@hotme.com,"Hameau du hibours, 50130 Montruc",1820.5,3. M,0
+426,426,1816,Marc,Testit,Marc.Testit@gjunk.com,"Rue des bananes, 13370 Staro Selo",58.0,4. P,0
+427,427,4183,Marc,Pavlovic,Marc.Pavlovic@yopmail.com,"Avenue des Schtroumps, 13370 Staro Selo",2224.0,3. M,0
+428,428,1502,Jean,Maricic,Jean.Maricic@dtc.de,"Boulevard de la girafouine, 50130 Cheapbourg",244.5,4. P,0
+429,429,1971,Laurence,Lazare,Laurence.Lazare@gjunk.com,"Rue des bananes, 50130 Staro Selo",33.5,4. P,9
+430,430,1990,Jeanette,Bouillave,Jeanette.Bouillave@dtc.de,"Place des curkas, 50130 Staro Selo",138.5,4. P,6
+431,431,1256,Louis,Kezman,Louis.Kezman@gjunk.com,"Boulevard de la girafouine, 13370 Veliko Curan",100.0,4. P,16
+432,432,1054,Mamadou,Pigox,Mamadou.Pigox@gjunk.com,"Rue des bananes, 1180 Veliko Curan",119.0,4. P,15
+433,433,1380,Bodgan,Pavlovic,Bodgan.Pavlovic@yopmail.com,"Rue des bananes, 50130 Montruc",635.5,4. P,0
+434,434,810,Jeanette,Maricic,Jeanette.Maricic@yopmail.com,"Boulevard de la girafouine, 1180 Veliko Curan",1650.0,4. P,1
+435,435,1650,Franck,Pigox,Franck.Pigox@youpi.com,"Avenue des Schtroumps, 50130 Cheapbourg",49.0,4. P,11
+436,436,1653,Jean,Pigox,Jean.Pigox@gjunk.com,"Hameau du hibours, 13370 Staro Selo",19795.0,2. G,0
+437,437,1258,Franck,Maricic,Franck.Maricic@dtc.de,"Avenue des Schtroumps, 1180 Montruc",139.5,4. P,16
+438,438,1536,Louis,Kezman,Louis.Kezman@gjunk.com,"Avenue des Schtroumps, 13370 Montruc",11021.5,2. G,0
+439,439,2676,Laurent,Garcimore,Laurent.Garcimore@minitel.fr,"Hameau du hibours, 50130 Staro Selo",2639.5,3. M,0
+440,440,1818,Laurent,Kezman,Laurent.Kezman@hotme.com,"Boulevard de la girafouine, 13370 Staro Selo",2283.5,3. M,0
+441,441,529,Louis,Pavlovic,Louis.Pavlovic@minitel.fr,"Rue des bananes, 50130 Montruc",787.5,4. P,0
+442,442,1549,Marc,Cule,Marc.Cule@gjunk.com,"Boulevard de la girafouine, 50130 Staro Selo",193.0,4. P,1
+443,443,808,Bodgan,Maricic,Bodgan.Maricic@gjunk.com,"Avenue des Schtroumps, 50130 Staro Selo",12.0,4. P,3
+444,444,172,Louis,Bouillave,Louis.Bouillave@yopmail.com,"Avenue des Schtroumps, 50130 Cheapbourg",12309.6,2. G,0
+445,445,1967,Jeanette,Lazare,Jeanette.Lazare@yopmail.com,"Avenue des Schtroumps, 13370 Montruc",29.0,4. P,9
+446,446,1331,Louis,Testit,Louis.Testit@youpi.com,"Avenue des Schtroumps, 13370 Staro Selo",20.0,4. P,15
+447,447,825,Laurence,Pigox,Laurence.Pigox@hotme.com,"Hameau du hibours, 13370 Montruc",118.0,4. P,2
+448,448,1713,Mamadou,Kezman,Mamadou.Kezman@dtc.de,"Avenue des Schtroumps, 1180 Veliko Curan",10.0,4. P,10
+449,449,1115,Laurence,Martin,Laurence.Martin@gjunk.com,"Avenue des Schtroumps, 1180 Montruc",147741.0,1. TG,0
+450,450,1065,Jean,Pigox,Jean.Pigox@gjunk.com,"Avenue des Schtroumps, 1180 Cheapbourg",365.0,4. P,6
+451,451,1318,Josiane,Pigox,Josiane.Pigox@yopmail.com,"Hameau du hibours, 1180 Staro Selo",892.5,4. P,15
+452,452,1868,Mamadou,Pavlovic,Mamadou.Pavlovic@hotme.com,"Place des curkas, 50130 Cheapbourg",609.0,4. P,5
+453,453,1870,Franck,Pavlovic,Franck.Pavlovic@youpi.com,"Rue des bananes, 50130 Staro Selo",46.5,4. P,8
+454,454,1237,Laurence,Testit,Laurence.Testit@youpi.com,"Hameau du hibours, 13370 Veliko Curan",4979.5,3. M,0
+455,455,1743,Laurent,Pigox,Laurent.Pigox@yopmail.com,"Hameau du hibours, 50130 Cheapbourg",40.5,4. P,9
+456,456,1684,Louis,Cule,Louis.Cule@minitel.fr,"Boulevard de la girafouine, 50130 Staro Selo",11.0,4. P,11
+457,457,1867,Louis,Pavlovic,Louis.Pavlovic@gjunk.com,"Avenue des Schtroumps, 50130 Montruc",1735.0,3. M,0
+458,458,1860,Bodgan,Garcimore,Bodgan.Garcimore@minitel.fr,"Hameau du hibours, 1180 Montruc",10716.0,3. M,6
+459,459,946,Franck,Garcimore,Franck.Garcimore@gjunk.com,"Place des curkas, 50130 Veliko Curan",4405.65,3. M,0
+460,460,1081,Laurent,Garcimore,Laurent.Garcimore@yopmail.com,"Boulevard de la girafouine, 13370 Cheapbourg",318.0,4. P,10
+461,461,2010,Bodgan,Bouillave,Bodgan.Bouillave@yopmail.com,"Rue des bananes, 13370 Cheapbourg",424.0,4. P,9
+462,462,1728,Jeanette,Cule,Jeanette.Cule@youpi.com,"Avenue des Schtroumps, 13370 Staro Selo",45.5,4. P,11
+463,463,742,Jeanette,Martin,Jeanette.Martin@youpi.com,"Hameau du hibours, 50130 Veliko Curan",22.0,4. P,1
+464,464,1409,Franck,Pavlovic,Franck.Pavlovic@hotme.com,"Avenue des Schtroumps, 50130 Staro Selo",67.0,4. P,1
+465,465,1943,Laurence,Bouillave,Laurence.Bouillave@gjunk.com,"Hameau du hibours, 1180 Staro Selo",10.0,4. P,10
+466,466,1600,Laurent,Kezman,Laurent.Kezman@youpi.com,"Boulevard de la girafouine, 50130 Montruc",2072.75,3. M,0
+467,467,1963,Louis,Bouillave,Louis.Bouillave@yopmail.com,"Boulevard de la girafouine, 1180 Cheapbourg",10.0,4. P,10
+468,468,1768,Mamadou,Martin,Mamadou.Martin@hotme.com,"Avenue des Schtroumps, 50130 Montruc",233.5,4. P,8
+469,469,1828,Laurence,Garcimore,Laurence.Garcimore@yopmail.com,"Hameau du hibours, 1180 Cheapbourg",40.5,4. P,10
+470,470,304,Laurent,Martin,Laurent.Martin@youpi.com,"Avenue des Schtroumps, 50130 Montruc",647.0,4. P,3
+471,471,1312,Laurent,Testit,Laurent.Testit@minitel.fr,"Place des curkas, 1180 Veliko Curan",3038.1,3. M,0
+472,472,1723,Laurence,Kezman,Laurence.Kezman@minitel.fr,"Boulevard de la girafouine, 50130 Montruc",657.0,4. P,3
+473,473,1974,Bodgan,Martin,Bodgan.Martin@gjunk.com,"Place des curkas, 1180 Staro Selo",98.5,4. P,9
+474,474,1110,Mamadou,Kezman,Mamadou.Kezman@youpi.com,"Avenue des Schtroumps, 1180 Veliko Curan",3518.5,3. M,0
+475,475,1781,Bodgan,Pavlovic,Bodgan.Pavlovic@dtc.de,"Hameau du hibours, 1180 Staro Selo",4.5,4. P,10
+476,476,1489,Louis,Lazare,Louis.Lazare@gjunk.com,"Rue des bananes, 13370 Veliko Curan",60.0,4. P,12
+477,477,1494,Josiane,Maricic,Josiane.Maricic@dtc.de,"Boulevard de la girafouine, 1180 Staro Selo",50.0,4. P,8
+478,478,1769,Louis,Maricic,Louis.Maricic@yopmail.com,"Rue des bananes, 50130 Cheapbourg",60.0,4. P,10
+479,479,1085,Laurent,Lazare,Laurent.Lazare@youpi.com,"Place des curkas, 13370 Montruc",8333.35,3. M,10
+480,480,181,Franck,Pigox,Franck.Pigox@hotme.com,"Rue des bananes, 13370 Veliko Curan",21310.5,2. G,0
+481,481,102,Jean,Maricic,Jean.Maricic@gjunk.com,"Rue des bananes, 1180 Staro Selo",24751.9,2. G,4
+482,482,1747,Bodgan,Lazare,Bodgan.Lazare@hotme.com,"Avenue des Schtroumps, 13370 Montruc",86.0,4. P,10
+483,483,923,Franck,Lazare,Franck.Lazare@yopmail.com,"Hameau du hibours, 13370 Montruc",9378.5,3. M,0
+484,484,93,Laurent,Kezman,Laurent.Kezman@yopmail.com,"Rue des bananes, 50130 Cheapbourg",3787.0,3. M,4
+485,485,2019,Marc,Pigox,Marc.Pigox@yopmail.com,"Avenue des Schtroumps, 13370 Cheapbourg",6000.0,3. M,0
+486,486,1035,Jeanette,Martin,Jeanette.Martin@dtc.de,"Avenue des Schtroumps, 1180 Staro Selo",3477.0,3. M,10
+487,487,1496,Josiane,Kezman,Josiane.Kezman@yopmail.com,"Rue des bananes, 13370 Staro Selo",41.5,4. P,13
+488,488,1885,Laurent,Bouillave,Laurent.Bouillave@youpi.com,"Place des curkas, 13370 Veliko Curan",2495.85,3. M,0
+489,489,1805,Laurence,Pigox,Laurence.Pigox@dtc.de,"Place des curkas, 13370 Montruc",1156.5,4. P,0
+490,490,1473,Josiane,Bouillave,Josiane.Bouillave@yopmail.com,"Boulevard de la girafouine, 50130 Staro Selo",1371.0,4. P,0
+491,491,1750,Laurence,Lazare,Laurence.Lazare@minitel.fr,"Avenue des Schtroumps, 13370 Veliko Curan",22256.0,2. G,0
+492,492,1959,Laurent,Pavlovic,Laurent.Pavlovic@yopmail.com,"Avenue des Schtroumps, 50130 Cheapbourg",3584.5,3. M,0
+493,493,83,Bodgan,Pavlovic,Bodgan.Pavlovic@yopmail.com,"Avenue des Schtroumps, 1180 Staro Selo",7.6,4. P,13
+494,494,1189,Josiane,Garcimore,Josiane.Garcimore@hotme.com,"Rue des bananes, 50130 Staro Selo",81.0,4. P,17
+495,495,1901,Laurence,Martin,Laurence.Martin@gjunk.com,"Hameau du hibours, 13370 Cheapbourg",200.0,4. P,8
+496,496,1208,Jean,Cule,Jean.Cule@hotme.com,"Place des curkas, 50130 Montruc",39543.5,2. G,0
+497,497,1435,Franck,Martin,Franck.Martin@youpi.com,"Rue des bananes, 50130 Montruc",19862.0,2. G,5
+498,498,592,Louis,Cule,Louis.Cule@yopmail.com,"Avenue des Schtroumps, 50130 Cheapbourg",30.0,4. P,15
+499,499,997,Laurent,Martin,Laurent.Martin@hotme.com,"Boulevard de la girafouine, 1180 Staro Selo",100.0,4. P,20
+500,500,1266,Josiane,Lazare,Josiane.Lazare@minitel.fr,"Rue des bananes, 50130 Cheapbourg",6059.65,3. M,0
+501,501,273,Laurence,Garcimore,Laurence.Garcimore@minitel.fr,"Place des curkas, 1180 Montruc",821.0,4. P,16
+502,502,104,Bodgan,Bouillave,Bodgan.Bouillave@gjunk.com,"Boulevard de la girafouine, 1180 Staro Selo",2579.0,3. M,0
+503,503,1736,Bodgan,Bouillave,Bodgan.Bouillave@yopmail.com,"Place des curkas, 50130 Veliko Curan",225.5,4. P,10
+504,504,1753,Laurence,Cule,Laurence.Cule@yopmail.com,"Hameau du hibours, 13370 Veliko Curan",235.5,4. P,9
+505,505,1987,Marc,Maricic,Marc.Maricic@youpi.com,"Boulevard de la girafouine, 13370 Montruc",23.0,4. P,9
+506,506,1190,Marc,Pigox,Marc.Pigox@yopmail.com,"Rue des bananes, 1180 Montruc",533.0,4. P,1
+507,507,1835,Laurent,Cule,Laurent.Cule@minitel.fr,"Place des curkas, 50130 Staro Selo",20.0,4. P,10
+508,508,1313,Bodgan,Cule,Bodgan.Cule@dtc.de,"Boulevard de la girafouine, 50130 Staro Selo",11.0,4. P,14
+509,509,1669,Laurence,Pigox,Laurence.Pigox@hotme.com,"Rue des bananes, 13370 Staro Selo",23.0,4. P,11
+510,510,1823,Laurence,Testit,Laurence.Testit@hotme.com,"Place des curkas, 50130 Staro Selo",813.5,4. P,4
+511,511,1770,Laurence,Kezman,Laurence.Kezman@gjunk.com,"Avenue des Schtroumps, 50130 Cheapbourg",548.5,4. P,10
+512,512,1952,Franck,Lazare,Franck.Lazare@minitel.fr,"Place des curkas, 13370 Veliko Curan",10.5,4. P,10
+513,513,1873,Bodgan,Garcimore,Bodgan.Garcimore@yopmail.com,"Hameau du hibours, 1180 Veliko Curan",377.0,4. P,6
+514,514,3212,Jean,Testit,Jean.Testit@yopmail.com,"Avenue des Schtroumps, 13370 Montruc",5230.0,3. M,0
+515,515,1088,Mamadou,Maricic,Mamadou.Maricic@gjunk.com,"Hameau du hibours, 50130 Veliko Curan",36846.4,2. G,3
+516,516,1329,Jean,Lazare,Jean.Lazare@youpi.com,"Boulevard de la girafouine, 1180 Montruc",1092.3,4. P,0
+517,517,1226,Laurent,Martin,Laurent.Martin@gjunk.com,"Boulevard de la girafouine, 50130 Montruc",330.5,4. P,5
+518,518,1290,Bodgan,Pigox,Bodgan.Pigox@gjunk.com,"Rue des bananes, 13370 Veliko Curan",55.0,4. P,16
+519,519,1671,Jean,Martin,Jean.Martin@minitel.fr,"Boulevard de la girafouine, 50130 Cheapbourg",385.5,4. P,0
+520,520,3595,Louis,Kezman,Louis.Kezman@hotme.com,"Place des curkas, 50130 Veliko Curan",1499.1,4. P,0
+521,521,2013,Laurent,Testit,Laurent.Testit@gjunk.com,"Rue des bananes, 1180 Staro Selo",40.0,4. P,9
+522,522,972,Laurent,Testit,Laurent.Testit@gjunk.com,"Boulevard de la girafouine, 50130 Montruc",25.0,4. P,21
+523,523,1028,Laurence,Pigox,Laurence.Pigox@gjunk.com,"Hameau du hibours, 50130 Cheapbourg",1000.0,4. P,20
+524,524,1639,Josiane,Maricic,Josiane.Maricic@dtc.de,"Avenue des Schtroumps, 13370 Staro Selo",853.5,4. P,0
+525,525,1567,Josiane,Pigox,Josiane.Pigox@minitel.fr,"Place des curkas, 1180 Veliko Curan",3304.5,3. M,2
+526,526,1821,Laurence,Maricic,Laurence.Maricic@dtc.de,"Avenue des Schtroumps, 1180 Staro Selo",35.0,4. P,9
+527,527,1535,Louis,Kezman,Louis.Kezman@dtc.de,"Boulevard de la girafouine, 1180 Staro Selo",6669.0,3. M,0
+528,528,1793,Louis,Testit,Louis.Testit@yopmail.com,"Hameau du hibours, 50130 Montruc",52.5,4. P,10
+529,529,1103,Jeanette,Cule,Jeanette.Cule@minitel.fr,"Rue des bananes, 50130 Montruc",149.0,4. P,10
+530,530,988,Bodgan,Kezman,Bodgan.Kezman@youpi.com,"Hameau du hibours, 13370 Veliko Curan",510.0,4. P,0
+531,531,3561,Laurence,Pigox,Laurence.Pigox@youpi.com,"Place des curkas, 1180 Veliko Curan",4146.5,3. M,0
+532,532,250,Laurent,Cule,Laurent.Cule@yopmail.com,"Hameau du hibours, 13370 Staro Selo",869.0,4. P,9
+533,533,106,Josiane,Bouillave,Josiane.Bouillave@yopmail.com,"Rue des bananes, 13370 Veliko Curan",6.5,4. P,2
+534,534,1872,Jean,Testit,Jean.Testit@yopmail.com,"Rue des bananes, 50130 Staro Selo",2546.0,3. M,0
+535,535,3802,Franck,Cule,Franck.Cule@minitel.fr,"Rue des bananes, 1180 Veliko Curan",11.5,4. P,4
+536,536,1928,Jeanette,Pigox,Jeanette.Pigox@dtc.de,"Avenue des Schtroumps, 1180 Cheapbourg",785.5,4. P,0
+537,537,1589,Jeanette,Maricic,Jeanette.Maricic@youpi.com,"Avenue des Schtroumps, 13370 Cheapbourg",29810.0,2. G,8
+538,538,385,Marc,Garcimore,Marc.Garcimore@hotme.com,"Rue des bananes, 13370 Staro Selo",583.5,4. P,0
+539,539,1183,Bodgan,Garcimore,Bodgan.Garcimore@youpi.com,"Hameau du hibours, 1180 Veliko Curan",2253.0,3. M,0
+540,540,1439,Louis,Testit,Louis.Testit@minitel.fr,"Place des curkas, 50130 Veliko Curan",15.0,4. P,14
+541,541,1663,Franck,Pavlovic,Franck.Pavlovic@gjunk.com,"Boulevard de la girafouine, 13370 Cheapbourg",5579.5,3. M,0
+542,542,1824,Laurence,Cule,Laurence.Cule@hotme.com,"Rue des bananes, 50130 Staro Selo",3948.5,3. M,2
+543,543,1553,Marc,Kezman,Marc.Kezman@yopmail.com,"Place des curkas, 1180 Montruc",4258.5,3. M,0
+544,544,1169,Marc,Cule,Marc.Cule@yopmail.com,"Avenue des Schtroumps, 13370 Staro Selo",3087.5,3. M,0
+545,545,1855,Laurence,Garcimore,Laurence.Garcimore@yopmail.com,"Avenue des Schtroumps, 13370 Montruc",241.5,4. P,3
+546,546,3805,Bodgan,Martin,Bodgan.Martin@yopmail.com,"Avenue des Schtroumps, 13370 Montruc",84.5,4. P,3
+547,547,1574,Marc,Cule,Marc.Cule@hotme.com,"Avenue des Schtroumps, 50130 Montruc",696.0,4. P,0
+548,548,1268,Bodgan,Pigox,Bodgan.Pigox@dtc.de,"Place des curkas, 1180 Veliko Curan",2269.5,3. M,2
+549,549,1522,Josiane,Kezman,Josiane.Kezman@minitel.fr,"Boulevard de la girafouine, 1180 Staro Selo",1433.0,4. P,0
+550,550,1279,Bodgan,Bouillave,Bodgan.Bouillave@yopmail.com,"Place des curkas, 50130 Staro Selo",86.5,4. P,8
+551,551,425,Franck,Testit,Franck.Testit@dtc.de,"Hameau du hibours, 1180 Cheapbourg",135.0,4. P,8
+552,552,1680,Mamadou,Garcimore,Mamadou.Garcimore@yopmail.com,"Place des curkas, 1180 Staro Selo",375.0,4. P,11
+553,553,1944,Jean,Martin,Jean.Martin@hotme.com,"Avenue des Schtroumps, 50130 Staro Selo",446.5,4. P,5
+554,554,1181,Laurent,Pavlovic,Laurent.Pavlovic@dtc.de,"Hameau du hibours, 50130 Staro Selo",6395.5,3. M,0
+555,555,1303,Jeanette,Pavlovic,Jeanette.Pavlovic@gjunk.com,"Avenue des Schtroumps, 50130 Staro Selo",838.5,4. P,2
+556,556,1059,Jean,Kezman,Jean.Kezman@minitel.fr,"Rue des bananes, 50130 Cheapbourg",1945.0,3. M,0
+557,557,1645,Mamadou,Pavlovic,Mamadou.Pavlovic@yopmail.com,"Avenue des Schtroumps, 1180 Montruc",217.0,4. P,8
+558,558,1316,Laurence,Pigox,Laurence.Pigox@yopmail.com,"Rue des bananes, 13370 Staro Selo",6530.5,3. M,0
+559,559,2006,Jean,Martin,Jean.Martin@yopmail.com,"Rue des bananes, 13370 Staro Selo",7179.5,3. M,0
+560,560,1010,Mamadou,Martin,Mamadou.Martin@minitel.fr,"Hameau du hibours, 1180 Cheapbourg",235.0,4. P,7
+561,561,1897,Jean,Bouillave,Jean.Bouillave@minitel.fr,"Place des curkas, 1180 Cheapbourg",10.0,4. P,10
+562,562,508,Bodgan,Lazare,Bodgan.Lazare@yopmail.com,"Place des curkas, 1180 Veliko Curan",262.3,4. P,3
+563,563,1239,Franck,Testit,Franck.Testit@dtc.de,"Boulevard de la girafouine, 50130 Staro Selo",9364.5,3. M,0
+564,564,269,Marc,Maricic,Marc.Maricic@youpi.com,"Boulevard de la girafouine, 50130 Montruc",45959.8,2. G,0
+565,565,981,Marc,Bouillave,Marc.Bouillave@hotme.com,"Boulevard de la girafouine, 50130 Veliko Curan",5933.5,3. M,0
+566,566,1069,Laurent,Garcimore,Laurent.Garcimore@dtc.de,"Hameau du hibours, 50130 Montruc",2625.0,3. M,14
+567,567,1973,Laurence,Martin,Laurence.Martin@hotme.com,"Hameau du hibours, 50130 Montruc",22.5,4. P,10
+568,568,1404,Franck,Maricic,Franck.Maricic@hotme.com,"Hameau du hibours, 13370 Cheapbourg",8997.7,3. M,0
+569,569,902,Jeanette,Testit,Jeanette.Testit@gjunk.com,"Hameau du hibours, 1180 Cheapbourg",20.0,4. P,22
+570,570,1182,Bodgan,Pigox,Bodgan.Pigox@dtc.de,"Boulevard de la girafouine, 13370 Cheapbourg",111.0,4. P,11
+571,571,1787,Franck,Bouillave,Franck.Bouillave@dtc.de,"Place des curkas, 13370 Cheapbourg",3977.5,3. M,0
+572,572,1371,Josiane,Bouillave,Josiane.Bouillave@youpi.com,"Boulevard de la girafouine, 13370 Cheapbourg",104.0,4. P,10
+573,573,1706,Marc,Testit,Marc.Testit@dtc.de,"Hameau du hibours, 1180 Staro Selo",2102.5,3. M,5
+574,574,1968,Marc,Lazare,Marc.Lazare@minitel.fr,"Hameau du hibours, 50130 Cheapbourg",150.0,4. P,9
+575,575,1332,Laurence,Lazare,Laurence.Lazare@hotme.com,"Place des curkas, 13370 Cheapbourg",49.0,4. P,16
+576,576,1372,Louis,Martin,Louis.Martin@minitel.fr,"Avenue des Schtroumps, 13370 Montruc",1337.5,4. P,0
+577,577,1238,Marc,Martin,Marc.Martin@gjunk.com,"Rue des bananes, 1180 Veliko Curan",6021.0,3. M,7
+578,578,948,Franck,Martin,Franck.Martin@yopmail.com,"Avenue des Schtroumps, 13370 Cheapbourg",179.5,4. P,21
+579,579,3823,Bodgan,Pigox,Bodgan.Pigox@youpi.com,"Avenue des Schtroumps, 50130 Veliko Curan",18657.0,2. G,0
+580,580,1049,Josiane,Testit,Josiane.Testit@dtc.de,"Boulevard de la girafouine, 1180 Cheapbourg",4076.0,3. M,0
+581,581,1350,Laurence,Pigox,Laurence.Pigox@minitel.fr,"Place des curkas, 1180 Cheapbourg",17.0,4. P,2
+582,582,1811,Laurence,Garcimore,Laurence.Garcimore@hotme.com,"Boulevard de la girafouine, 1180 Veliko Curan",176.5,4. P,4
+583,583,1875,Laurent,Testit,Laurent.Testit@hotme.com,"Place des curkas, 50130 Veliko Curan",256.5,4. P,9
+584,584,1788,Laurent,Pigox,Laurent.Pigox@hotme.com,"Hameau du hibours, 50130 Staro Selo",70.5,4. P,7
+585,585,1851,Franck,Kezman,Franck.Kezman@yopmail.com,"Hameau du hibours, 13370 Cheapbourg",1918.0,3. M,0
+586,586,1616,Franck,Testit,Franck.Testit@gjunk.com,"Hameau du hibours, 1180 Montruc",7638.0,3. M,0
+587,587,1737,Mamadou,Pavlovic,Mamadou.Pavlovic@minitel.fr,"Place des curkas, 50130 Cheapbourg",18.0,4. P,11
+588,588,1729,Laurent,Pavlovic,Laurent.Pavlovic@dtc.de,"Hameau du hibours, 50130 Staro Selo",1804.6,3. M,8
+589,589,1742,Josiane,Kezman,Josiane.Kezman@youpi.com,"Avenue des Schtroumps, 13370 Cheapbourg",36.5,4. P,11
+590,590,1451,Mamadou,Pigox,Mamadou.Pigox@gjunk.com,"Place des curkas, 13370 Staro Selo",375.0,4. P,8
+591,591,1700,Jeanette,Lazare,Jeanette.Lazare@minitel.fr,"Rue des bananes, 1180 Staro Selo",25.0,4. P,11
+592,592,1920,Louis,Pigox,Louis.Pigox@yopmail.com,"Hameau du hibours, 1180 Montruc",18.0,4. P,10
+593,593,1478,Franck,Lazare,Franck.Lazare@minitel.fr,"Avenue des Schtroumps, 13370 Veliko Curan",1073.0,4. P,0
+594,594,858,Bodgan,Pavlovic,Bodgan.Pavlovic@hotme.com,"Boulevard de la girafouine, 13370 Montruc",1954.7,3. M,1
+595,595,1359,Bodgan,Cule,Bodgan.Cule@yopmail.com,"Rue des bananes, 13370 Cheapbourg",3835.0,3. M,9
+596,596,1797,Laurent,Kezman,Laurent.Kezman@youpi.com,"Avenue des Schtroumps, 13370 Montruc",10.0,4. P,10
+597,597,1349,Laurence,Kezman,Laurence.Kezman@hotme.com,"Hameau du hibours, 1180 Veliko Curan",1242.0,4. P,0
+598,598,1143,Louis,Maricic,Louis.Maricic@hotme.com,"Rue des bananes, 1180 Veliko Curan",311.5,4. P,16
+599,599,967,Jean,Testit,Jean.Testit@yopmail.com,"Place des curkas, 50130 Veliko Curan",100.0,4. P,0
+600,600,4276,Mamadou,Maricic,Mamadou.Maricic@gjunk.com,"Place des curkas, 13370 Staro Selo",4386.0,3. M,0
+601,601,1676,Louis,Cule,Louis.Cule@minitel.fr,"Hameau du hibours, 13370 Montruc",165.0,4. P,10
+602,602,1098,Jeanette,Kezman,Jeanette.Kezman@minitel.fr,"Boulevard de la girafouine, 50130 Staro Selo",39381.6,2. G,0
+603,603,3744,Laurent,Testit,Laurent.Testit@yopmail.com,"Hameau du hibours, 50130 Montruc",228.0,4. P,4
+604,604,1511,Mamadou,Garcimore,Mamadou.Garcimore@yopmail.com,"Boulevard de la girafouine, 1180 Staro Selo",147.0,4. P,13
+605,605,1551,Marc,Bouillave,Marc.Bouillave@youpi.com,"Rue des bananes, 13370 Veliko Curan",999.0,4. P,8
+606,606,1133,Louis,Lazare,Louis.Lazare@minitel.fr,"Boulevard de la girafouine, 13370 Montruc",3162.0,3. M,1
+607,607,1983,Laurent,Pavlovic,Laurent.Pavlovic@dtc.de,"Boulevard de la girafouine, 13370 Staro Selo",2046.0,3. M,0
+608,608,1569,Bodgan,Testit,Bodgan.Testit@hotme.com,"Rue des bananes, 13370 Montruc",15441.0,2. G,0
+609,609,147,Jean,Garcimore,Jean.Garcimore@gjunk.com,"Hameau du hibours, 13370 Montruc",5156.5,3. M,9
+610,610,1715,Marc,Bouillave,Marc.Bouillave@yopmail.com,"Hameau du hibours, 1180 Cheapbourg",339.0,4. P,9
+611,611,781,Louis,Garcimore,Louis.Garcimore@youpi.com,"Hameau du hibours, 13370 Montruc",18937.1,2. G,0
+612,612,1422,Laurence,Garcimore,Laurence.Garcimore@yopmail.com,"Place des curkas, 13370 Veliko Curan",315.5,4. P,1
+613,613,1883,Franck,Pigox,Franck.Pigox@minitel.fr,"Avenue des Schtroumps, 13370 Staro Selo",120.0,4. P,2
+614,614,1090,Josiane,Kezman,Josiane.Kezman@dtc.de,"Boulevard de la girafouine, 1180 Staro Selo",345.5,4. P,1
+615,615,1399,Franck,Testit,Franck.Testit@youpi.com,"Hameau du hibours, 13370 Montruc",20.5,4. P,15
+616,616,1871,Jean,Pigox,Jean.Pigox@youpi.com,"Avenue des Schtroumps, 50130 Montruc",4002.0,3. M,0
+617,617,1712,Laurence,Garcimore,Laurence.Garcimore@yopmail.com,"Avenue des Schtroumps, 50130 Montruc",272.5,4. P,1
+618,618,1966,Laurent,Testit,Laurent.Testit@youpi.com,"Avenue des Schtroumps, 50130 Staro Selo",497.35,4. P,0
+619,619,985,Jeanette,Garcimore,Jeanette.Garcimore@dtc.de,"Rue des bananes, 1180 Staro Selo",244.0,4. P,17
+620,620,1975,Jeanette,Maricic,Jeanette.Maricic@yopmail.com,"Avenue des Schtroumps, 1180 Montruc",535.2,4. P,8
+621,621,522,Mamadou,Pigox,Mamadou.Pigox@hotme.com,"Rue des bananes, 50130 Cheapbourg",38.5,4. P,13
+622,622,1692,Josiane,Maricic,Josiane.Maricic@dtc.de,"Rue des bananes, 1180 Veliko Curan",825.5,4. P,4
+623,623,1866,Louis,Testit,Louis.Testit@dtc.de,"Rue des bananes, 50130 Veliko Curan",345.0,4. P,9
+624,624,1080,Louis,Testit,Louis.Testit@hotme.com,"Place des curkas, 13370 Staro Selo",19125.0,2. G,0
+625,625,310,Franck,Garcimore,Franck.Garcimore@hotme.com,"Rue des bananes, 50130 Veliko Curan",96.2,4. P,20
+626,626,1810,Laurent,Cule,Laurent.Cule@dtc.de,"Rue des bananes, 50130 Veliko Curan",10.0,4. P,10
+627,627,1682,Marc,Bouillave,Marc.Bouillave@minitel.fr,"Boulevard de la girafouine, 50130 Cheapbourg",286.4,4. P,0
+628,628,1784,Laurent,Cule,Laurent.Cule@gjunk.com,"Place des curkas, 13370 Veliko Curan",29658.0,2. G,0
+629,629,1432,Jean,Testit,Jean.Testit@minitel.fr,"Place des curkas, 50130 Montruc",8508.5,3. M,1
+630,630,951,Bodgan,Kezman,Bodgan.Kezman@hotme.com,"Rue des bananes, 50130 Staro Selo",2858.8,3. M,0
+631,631,1210,Franck,Martin,Franck.Martin@hotme.com,"Avenue des Schtroumps, 50130 Montruc",7118.75,3. M,13
+632,632,1107,Marc,Lazare,Marc.Lazare@yopmail.com,"Avenue des Schtroumps, 50130 Cheapbourg",962.5,4. P,0
+633,633,3881,Laurence,Testit,Laurence.Testit@youpi.com,"Place des curkas, 13370 Veliko Curan",1673.5,3. M,3
+634,634,1780,Bodgan,Bouillave,Bodgan.Bouillave@yopmail.com,"Rue des bananes, 13370 Veliko Curan",10.0,4. P,10
+635,635,1362,Josiane,Pavlovic,Josiane.Pavlovic@gjunk.com,"Rue des bananes, 50130 Veliko Curan",1994.5,3. M,15
+636,636,1922,Mamadou,Martin,Mamadou.Martin@youpi.com,"Rue des bananes, 13370 Cheapbourg",20.0,4. P,10
+637,637,1449,Jeanette,Martin,Jeanette.Martin@yopmail.com,"Rue des bananes, 1180 Montruc",99685.0,1. TG,0
+638,638,1267,Laurent,Lazare,Laurent.Lazare@hotme.com,"Place des curkas, 13370 Cheapbourg",4679.0,3. M,0
+639,639,872,Jeanette,Pavlovic,Jeanette.Pavlovic@dtc.de,"Rue des bananes, 1180 Staro Selo",8140.0,3. M,0
+640,640,1282,Franck,Pavlovic,Franck.Pavlovic@youpi.com,"Hameau du hibours, 1180 Montruc",442.5,4. P,12
+641,641,1941,Bodgan,Bouillave,Bodgan.Bouillave@youpi.com,"Boulevard de la girafouine, 50130 Montruc",10.0,4. P,10
+642,642,1420,Franck,Pavlovic,Franck.Pavlovic@minitel.fr,"Place des curkas, 1180 Montruc",39.0,4. P,11
+643,643,1720,Bodgan,Martin,Bodgan.Martin@minitel.fr,"Rue des bananes, 50130 Veliko Curan",3239.0,3. M,9
+644,644,1817,Josiane,Pavlovic,Josiane.Pavlovic@dtc.de,"Boulevard de la girafouine, 1180 Cheapbourg",618.5,4. P,8
+645,645,1782,Josiane,Bouillave,Josiane.Bouillave@hotme.com,"Boulevard de la girafouine, 13370 Veliko Curan",3571.0,3. M,0
+646,646,1204,Jean,Martin,Jean.Martin@youpi.com,"Place des curkas, 13370 Staro Selo",4731.8,3. M,0
+647,647,1910,Jean,Martin,Jean.Martin@minitel.fr,"Avenue des Schtroumps, 1180 Veliko Curan",151.5,4. P,8
+648,648,963,Laurence,Bouillave,Laurence.Bouillave@hotme.com,"Rue des bananes, 1180 Montruc",314.0,4. P,17
+649,649,1898,Mamadou,Cule,Mamadou.Cule@gjunk.com,"Avenue des Schtroumps, 50130 Veliko Curan",111.0,4. P,10
+650,650,1623,Jean,Pigox,Jean.Pigox@hotme.com,"Place des curkas, 13370 Veliko Curan",75.5,4. P,11
+651,651,2528,Bodgan,Pavlovic,Bodgan.Pavlovic@youpi.com,"Place des curkas, 13370 Cheapbourg",5945.0,3. M,0
+652,652,1783,Franck,Cule,Franck.Cule@youpi.com,"Place des curkas, 13370 Veliko Curan",47170.5,2. G,7
+653,653,1827,Laurence,Pigox,Laurence.Pigox@youpi.com,"Hameau du hibours, 1180 Staro Selo",3654.0,3. M,9
+654,654,1642,Jeanette,Bouillave,Jeanette.Bouillave@hotme.com,"Rue des bananes, 1180 Cheapbourg",559.5,4. P,10
+655,655,1339,Jean,Kezman,Jean.Kezman@hotme.com,"Place des curkas, 50130 Cheapbourg",11518.5,2. G,0
+656,656,1852,Jeanette,Lazare,Jeanette.Lazare@yopmail.com,"Rue des bananes, 1180 Montruc",248.0,4. P,10
+657,657,862,Franck,Testit,Franck.Testit@minitel.fr,"Avenue des Schtroumps, 1180 Montruc",21.0,4. P,8
+658,658,1554,Mamadou,Martin,Mamadou.Martin@yopmail.com,"Boulevard de la girafouine, 1180 Staro Selo",60.0,4. P,7
+659,659,849,Laurent,Bouillave,Laurent.Bouillave@dtc.de,"Avenue des Schtroumps, 13370 Cheapbourg",12.0,4. P,20
+660,660,1370,Bodgan,Cule,Bodgan.Cule@yopmail.com,"Avenue des Schtroumps, 1180 Staro Selo",285.0,4. P,15
+661,661,1978,Marc,Pavlovic,Marc.Pavlovic@minitel.fr,"Boulevard de la girafouine, 50130 Veliko Curan",1255.0,4. P,2
+662,662,969,Jean,Pigox,Jean.Pigox@yopmail.com,"Boulevard de la girafouine, 50130 Staro Selo",98.0,4. P,20
+663,663,1216,Jeanette,Cule,Jeanette.Cule@hotme.com,"Boulevard de la girafouine, 1180 Veliko Curan",170.0,4. P,6
+664,664,1227,Jeanette,Pigox,Jeanette.Pigox@dtc.de,"Hameau du hibours, 1180 Cheapbourg",76.0,4. P,7
+665,665,675,Jeanette,Pavlovic,Jeanette.Pavlovic@dtc.de,"Boulevard de la girafouine, 50130 Veliko Curan",18157.1,2. G,0
+666,666,1374,Laurence,Maricic,Laurence.Maricic@gjunk.com,"Boulevard de la girafouine, 13370 Veliko Curan",638.0,4. P,0
+667,667,1919,Laurent,Kezman,Laurent.Kezman@hotme.com,"Rue des bananes, 50130 Staro Selo",3993.5,3. M,0
+668,668,1759,Laurence,Lazare,Laurence.Lazare@gjunk.com,"Avenue des Schtroumps, 50130 Veliko Curan",7.5,4. P,10
+669,669,1850,Josiane,Martin,Josiane.Martin@minitel.fr,"Boulevard de la girafouine, 13370 Montruc",11030.0,2. G,0
+670,670,533,Franck,Pigox,Franck.Pigox@yopmail.com,"Rue des bananes, 1180 Cheapbourg",2.5,4. P,13
+671,671,2319,Bodgan,Bouillave,Bodgan.Bouillave@dtc.de,"Place des curkas, 50130 Cheapbourg",7274.7,3. M,0
+672,672,1916,Jeanette,Testit,Jeanette.Testit@dtc.de,"Boulevard de la girafouine, 1180 Montruc",10.0,4. P,10
+673,673,1556,Josiane,Lazare,Josiane.Lazare@minitel.fr,"Place des curkas, 50130 Veliko Curan",6451.5,3. M,0
+674,674,1346,Marc,Bouillave,Marc.Bouillave@youpi.com,"Avenue des Schtroumps, 50130 Montruc",37.5,4. P,15
+675,675,1945,Josiane,Kezman,Josiane.Kezman@hotme.com,"Boulevard de la girafouine, 13370 Montruc",30.0,4. P,9
+676,676,1627,Franck,Testit,Franck.Testit@yopmail.com,"Place des curkas, 13370 Veliko Curan",877.5,4. P,0
+677,677,1165,Laurence,Lazare,Laurence.Lazare@yopmail.com,"Hameau du hibours, 13370 Cheapbourg",146.0,4. P,0
+678,678,1320,Jean,Kezman,Jean.Kezman@minitel.fr,"Hameau du hibours, 13370 Staro Selo",164.0,4. P,13
+679,679,1323,Louis,Testit,Louis.Testit@dtc.de,"Avenue des Schtroumps, 13370 Staro Selo",244.0,4. P,0
+680,680,1101,Jean,Lazare,Jean.Lazare@youpi.com,"Place des curkas, 1180 Montruc",1057.4,4. P,7
+681,681,1477,Marc,Bouillave,Marc.Bouillave@hotme.com,"Rue des bananes, 13370 Montruc",994.5,4. P,3
+682,682,1061,Jeanette,Maricic,Jeanette.Maricic@youpi.com,"Hameau du hibours, 50130 Veliko Curan",2125.5,3. M,4
+683,683,2274,Josiane,Testit,Josiane.Testit@gjunk.com,"Boulevard de la girafouine, 50130 Veliko Curan",25307.0,2. G,0
+684,684,1666,Laurent,Martin,Laurent.Martin@youpi.com,"Place des curkas, 50130 Veliko Curan",1364.0,4. P,10
+685,685,939,Laurent,Bouillave,Laurent.Bouillave@dtc.de,"Rue des bananes, 13370 Staro Selo",447.5,4. P,0
+686,686,1002,Bodgan,Kezman,Bodgan.Kezman@yopmail.com,"Place des curkas, 50130 Veliko Curan",2970.5,3. M,13
+687,687,1749,Jean,Garcimore,Jean.Garcimore@hotme.com,"Avenue des Schtroumps, 13370 Veliko Curan",673.0,4. P,1
+688,688,1882,Jeanette,Martin,Jeanette.Martin@yopmail.com,"Hameau du hibours, 1180 Montruc",159.1,4. P,9
+689,689,1771,Laurent,Pavlovic,Laurent.Pavlovic@yopmail.com,"Avenue des Schtroumps, 50130 Cheapbourg",423.0,4. P,1
+690,690,974,Josiane,Bouillave,Josiane.Bouillave@hotme.com,"Boulevard de la girafouine, 1180 Cheapbourg",410.5,4. P,14
+691,691,2351,Louis,Bouillave,Louis.Bouillave@youpi.com,"Rue des bananes, 13370 Cheapbourg",7197.0,3. M,0
+692,692,2754,Mamadou,Garcimore,Mamadou.Garcimore@minitel.fr,"Rue des bananes, 1180 Staro Selo",2127.0,3. M,0
+693,693,1177,Louis,Bouillave,Louis.Bouillave@yopmail.com,"Place des curkas, 50130 Cheapbourg",7564.8,3. M,0
+694,694,1936,Louis,Maricic,Louis.Maricic@minitel.fr,"Hameau du hibours, 50130 Montruc",472.5,4. P,0
+695,695,1933,Jean,Maricic,Jean.Maricic@hotme.com,"Avenue des Schtroumps, 13370 Veliko Curan",26342.0,2. G,5
+696,696,1632,Laurence,Lazare,Laurence.Lazare@minitel.fr,"Boulevard de la girafouine, 1180 Montruc",14.0,4. P,11
+697,697,1011,Franck,Pavlovic,Franck.Pavlovic@youpi.com,"Hameau du hibours, 13370 Montruc",29359.25,2. G,0
+698,698,1406,Marc,Maricic,Marc.Maricic@gjunk.com,"Place des curkas, 13370 Staro Selo",25.0,4. P,15
+699,699,1688,Jeanette,Kezman,Jeanette.Kezman@youpi.com,"Avenue des Schtroumps, 1180 Montruc",1390.0,4. P,2
+700,700,1021,Josiane,Lazare,Josiane.Lazare@gjunk.com,"Rue des bananes, 13370 Veliko Curan",14.0,4. P,19
+701,701,1355,Franck,Kezman,Franck.Kezman@hotme.com,"Place des curkas, 1180 Montruc",256.0,4. P,0
+702,702,1690,Jeanette,Pigox,Jeanette.Pigox@gjunk.com,"Place des curkas, 50130 Staro Selo",742.0,4. P,7
+703,703,999,Franck,Pavlovic,Franck.Pavlovic@dtc.de,"Hameau du hibours, 13370 Montruc",67.5,4. P,1
+704,704,1036,Josiane,Garcimore,Josiane.Garcimore@minitel.fr,"Rue des bananes, 13370 Staro Selo",3675.0,3. M,0
+705,705,1643,Bodgan,Cule,Bodgan.Cule@hotme.com,"Boulevard de la girafouine, 50130 Veliko Curan",1355.0,4. P,0
+706,706,753,Jean,Kezman,Jean.Kezman@minitel.fr,"Rue des bananes, 1180 Montruc",12184.7,2. G,0
+707,707,1989,Mamadou,Lazare,Mamadou.Lazare@dtc.de,"Hameau du hibours, 13370 Veliko Curan",57.0,4. P,1
+708,708,1020,Jeanette,Testit,Jeanette.Testit@yopmail.com,"Avenue des Schtroumps, 1180 Staro Selo",22700.5,2. G,0
+709,709,876,Josiane,Martin,Josiane.Martin@hotme.com,"Avenue des Schtroumps, 1180 Cheapbourg",13.5,4. P,21
+710,710,1707,Jean,Bouillave,Jean.Bouillave@yopmail.com,"Rue des bananes, 50130 Cheapbourg",315.0,4. P,5
+711,711,1876,Marc,Pavlovic,Marc.Pavlovic@gjunk.com,"Rue des bananes, 13370 Montruc",1062.9,4. P,0
+712,712,89,Louis,Maricic,Louis.Maricic@yopmail.com,"Avenue des Schtroumps, 13370 Cheapbourg",631.5,4. P,1
+713,713,1274,Jeanette,Kezman,Jeanette.Kezman@dtc.de,"Avenue des Schtroumps, 1180 Staro Selo",413.0,4. P,0
+714,714,1094,Jeanette,Cule,Jeanette.Cule@hotme.com,"Hameau du hibours, 13370 Staro Selo",15.0,4. P,20
+715,715,1144,Jeanette,Cule,Jeanette.Cule@dtc.de,"Boulevard de la girafouine, 13370 Cheapbourg",6889.0,3. M,0
+716,716,1790,Franck,Cule,Franck.Cule@dtc.de,"Place des curkas, 13370 Montruc",90.0,4. P,8
+717,717,1336,Mamadou,Testit,Mamadou.Testit@gjunk.com,"Boulevard de la girafouine, 50130 Montruc",1191.0,4. P,0
+718,718,3523,Louis,Pavlovic,Louis.Pavlovic@yopmail.com,"Boulevard de la girafouine, 13370 Montruc",617.0,4. P,2
+719,719,1436,Jean,Testit,Jean.Testit@dtc.de,"Hameau du hibours, 50130 Cheapbourg",489.5,4. P,0
+720,720,1930,Louis,Pigox,Louis.Pigox@hotme.com,"Boulevard de la girafouine, 13370 Staro Selo",2168.0,3. M,0
+721,721,1558,Mamadou,Pavlovic,Mamadou.Pavlovic@hotme.com,"Boulevard de la girafouine, 1180 Cheapbourg",127.5,4. P,11
+722,722,1777,Laurence,Garcimore,Laurence.Garcimore@yopmail.com,"Place des curkas, 13370 Veliko Curan",8.5,4. P,10
+723,723,188,Louis,Pigox,Louis.Pigox@youpi.com,"Boulevard de la girafouine, 1180 Montruc",4106.0,3. M,0
+724,724,1287,Marc,Cule,Marc.Cule@dtc.de,"Rue des bananes, 50130 Staro Selo",400.5,4. P,15
+725,725,1170,Marc,Garcimore,Marc.Garcimore@minitel.fr,"Boulevard de la girafouine, 1180 Montruc",10.0,4. P,17
+726,726,469,Josiane,Kezman,Josiane.Kezman@hotme.com,"Rue des bananes, 13370 Staro Selo",202.0,4. P,7
+727,727,1951,Jean,Maricic,Jean.Maricic@yopmail.com,"Rue des bananes, 13370 Cheapbourg",2365.0,3. M,0
+728,728,1180,Mamadou,Cule,Mamadou.Cule@yopmail.com,"Place des curkas, 13370 Cheapbourg",403.0,4. P,0
+729,729,1869,Louis,Bouillave,Louis.Bouillave@gjunk.com,"Avenue des Schtroumps, 13370 Montruc",5717.7,3. M,0
+730,730,1815,Louis,Bouillave,Louis.Bouillave@dtc.de,"Boulevard de la girafouine, 13370 Veliko Curan",10.0,4. P,10
+731,731,1530,Louis,Maricic,Louis.Maricic@gjunk.com,"Hameau du hibours, 50130 Staro Selo",395.7,4. P,9
+732,732,1416,Bodgan,Bouillave,Bodgan.Bouillave@hotme.com,"Boulevard de la girafouine, 1180 Cheapbourg",580.5,4. P,9
+733,733,1849,Jean,Pigox,Jean.Pigox@dtc.de,"Place des curkas, 50130 Cheapbourg",153.0,4. P,10
+734,734,1154,Franck,Testit,Franck.Testit@youpi.com,"Place des curkas, 1180 Staro Selo",8596.5,3. M,0
+735,735,913,Bodgan,Cule,Bodgan.Cule@dtc.de,"Avenue des Schtroumps, 1180 Montruc",6997.65,3. M,0
+736,736,1003,Louis,Cule,Louis.Cule@minitel.fr,"Avenue des Schtroumps, 50130 Veliko Curan",22.5,4. P,20
+737,737,975,Josiane,Pavlovic,Josiane.Pavlovic@yopmail.com,"Rue des bananes, 1180 Staro Selo",15.0,4. P,21
+738,738,1786,Laurent,Lazare,Laurent.Lazare@dtc.de,"Rue des bananes, 50130 Veliko Curan",773.0,4. P,2
+739,739,1763,Jean,Testit,Jean.Testit@youpi.com,"Hameau du hibours, 50130 Staro Selo",10.5,4. P,10
+740,740,998,Franck,Pavlovic,Franck.Pavlovic@hotme.com,"Boulevard de la girafouine, 13370 Veliko Curan",10513.15,3. M,9
+741,741,760,Marc,Cule,Marc.Cule@youpi.com,"Place des curkas, 13370 Montruc",20.0,4. P,22
+742,742,1727,Laurent,Martin,Laurent.Martin@gjunk.com,"Hameau du hibours, 13370 Montruc",122.0,4. P,10
+743,743,1942,Mamadou,Garcimore,Mamadou.Garcimore@minitel.fr,"Rue des bananes, 1180 Veliko Curan",19.0,4. P,10
+744,744,3078,Jean,Martin,Jean.Martin@minitel.fr,"Rue des bananes, 50130 Cheapbourg",8851.0,3. M,2
+745,745,952,Mamadou,Testit,Mamadou.Testit@dtc.de,"Avenue des Schtroumps, 13370 Staro Selo",39.0,4. P,22
+746,746,1938,Bodgan,Garcimore,Bodgan.Garcimore@hotme.com,"Boulevard de la girafouine, 13370 Cheapbourg",39.0,4. P,10
+747,747,1957,Franck,Bouillave,Franck.Bouillave@youpi.com,"Hameau du hibours, 1180 Staro Selo",15.5,4. P,10
+748,748,1905,Josiane,Maricic,Josiane.Maricic@gjunk.com,"Boulevard de la girafouine, 1180 Staro Selo",39.5,4. P,10
+749,749,1857,Laurent,Testit,Laurent.Testit@hotme.com,"Hameau du hibours, 13370 Veliko Curan",7493.5,3. M,7
+750,750,1571,Mamadou,Lazare,Mamadou.Lazare@dtc.de,"Place des curkas, 50130 Veliko Curan",19.5,4. P,4
+751,751,1656,Franck,Maricic,Franck.Maricic@dtc.de,"Hameau du hibours, 50130 Staro Selo",24.0,4. P,8
+752,752,1203,Mamadou,Maricic,Mamadou.Maricic@yopmail.com,"Place des curkas, 50130 Veliko Curan",19718.0,2. G,0
+753,753,1958,Mamadou,Maricic,Mamadou.Maricic@minitel.fr,"Place des curkas, 50130 Montruc",16816.0,2. G,3
+754,754,1468,Jean,Bouillave,Jean.Bouillave@gjunk.com,"Place des curkas, 13370 Cheapbourg",6145.0,3. M,0
+755,755,973,Mamadou,Martin,Mamadou.Martin@yopmail.com,"Boulevard de la girafouine, 1180 Cheapbourg",1.5,4. P,21
+756,756,1637,Jeanette,Pavlovic,Jeanette.Pavlovic@youpi.com,"Place des curkas, 1180 Staro Selo",4.5,4. P,11
+757,757,1539,Franck,Pigox,Franck.Pigox@gjunk.com,"Avenue des Schtroumps, 50130 Staro Selo",487.5,4. P,12
+758,758,1859,Jeanette,Garcimore,Jeanette.Garcimore@youpi.com,"Avenue des Schtroumps, 1180 Staro Selo",13.5,4. P,10
+759,759,1498,Jean,Pavlovic,Jean.Pavlovic@minitel.fr,"Rue des bananes, 13370 Staro Selo",6333.5,3. M,0
+760,760,1757,Laurent,Bouillave,Laurent.Bouillave@hotme.com,"Hameau du hibours, 50130 Montruc",55.0,4. P,9
+761,761,1013,Laurence,Maricic,Laurence.Maricic@hotme.com,"Rue des bananes, 13370 Staro Selo",2495.0,3. M,8
+762,762,1441,Jean,Pavlovic,Jean.Pavlovic@minitel.fr,"Place des curkas, 13370 Cheapbourg",1180.5,4. P,0
+763,763,1710,Laurent,Garcimore,Laurent.Garcimore@minitel.fr,"Boulevard de la girafouine, 50130 Cheapbourg",773.5,4. P,3
+764,764,1156,Bodgan,Lazare,Bodgan.Lazare@gjunk.com,"Hameau du hibours, 50130 Staro Selo",11021.0,2. G,0
+765,765,1333,Laurent,Lazare,Laurent.Lazare@youpi.com,"Boulevard de la girafouine, 1180 Cheapbourg",63.7,4. P,15
+766,766,1648,Mamadou,Cule,Mamadou.Cule@hotme.com,"Place des curkas, 13370 Veliko Curan",3204.5,3. M,0
+767,767,3769,Marc,Kezman,Marc.Kezman@minitel.fr,"Rue des bananes, 1180 Cheapbourg",5220.5,3. M,0
+768,768,1129,Jeanette,Garcimore,Jeanette.Garcimore@dtc.de,"Avenue des Schtroumps, 13370 Montruc",7264.5,3. M,0
+769,769,1940,Bodgan,Bouillave,Bodgan.Bouillave@minitel.fr,"Avenue des Schtroumps, 50130 Montruc",71.0,4. P,10
+770,770,1191,Jeanette,Testit,Jeanette.Testit@dtc.de,"Place des curkas, 1180 Cheapbourg",313.8,4. P,6
+771,771,1927,Louis,Pavlovic,Louis.Pavlovic@dtc.de,"Boulevard de la girafouine, 1180 Staro Selo",9801.5,3. M,0
+772,772,1986,Louis,Maricic,Louis.Maricic@hotme.com,"Place des curkas, 50130 Cheapbourg",297.5,4. P,8
+773,773,968,Marc,Testit,Marc.Testit@dtc.de,"Rue des bananes, 13370 Cheapbourg",6.0,4. P,21
+774,774,1892,Mamadou,Kezman,Mamadou.Kezman@hotme.com,"Place des curkas, 50130 Cheapbourg",10.0,4. P,10
+775,775,1393,Bodgan,Pavlovic,Bodgan.Pavlovic@youpi.com,"Avenue des Schtroumps, 1180 Staro Selo",93.5,4. P,15
+776,776,1325,Laurent,Martin,Laurent.Martin@dtc.de,"Place des curkas, 50130 Staro Selo",40.0,4. P,4
+777,777,1641,Louis,Pavlovic,Louis.Pavlovic@gjunk.com,"Boulevard de la girafouine, 50130 Montruc",203.5,4. P,0
+778,778,1272,Franck,Pavlovic,Franck.Pavlovic@gjunk.com,"Boulevard de la girafouine, 50130 Staro Selo",10395.9,3. M,0
+779,779,1702,Franck,Bouillave,Franck.Bouillave@youpi.com,"Hameau du hibours, 1180 Staro Selo",12750.0,2. G,0
+780,780,908,Josiane,Lazare,Josiane.Lazare@hotme.com,"Place des curkas, 13370 Staro Selo",4949.0,3. M,0
+781,781,1062,Jean,Pigox,Jean.Pigox@dtc.de,"Boulevard de la girafouine, 1180 Cheapbourg",5471.5,3. M,2
+782,782,979,Jean,Cule,Jean.Cule@dtc.de,"Boulevard de la girafouine, 1180 Montruc",9131.0,3. M,0
+783,783,833,Jean,Maricic,Jean.Maricic@minitel.fr,"Rue des bananes, 1180 Montruc",68230.8,1. TG,0
+784,784,1459,Laurence,Pavlovic,Laurence.Pavlovic@yopmail.com,"Rue des bananes, 13370 Cheapbourg",1198.5,4. P,12
+785,785,583,Louis,Kezman,Louis.Kezman@dtc.de,"Avenue des Schtroumps, 50130 Cheapbourg",399068.0,1. TG,7
+786,786,1858,Laurent,Maricic,Laurent.Maricic@dtc.de,"Place des curkas, 50130 Montruc",75.0,4. P,9
+787,787,1566,Bodgan,Cule,Bodgan.Cule@minitel.fr,"Rue des bananes, 1180 Veliko Curan",2725.0,3. M,0
+788,788,2542,Louis,Pavlovic,Louis.Pavlovic@hotme.com,"Avenue des Schtroumps, 1180 Cheapbourg",7617.5,3. M,1
+789,789,1386,Laurence,Bouillave,Laurence.Bouillave@dtc.de,"Place des curkas, 50130 Montruc",120.0,4. P,2
+790,790,1019,Laurence,Lazare,Laurence.Lazare@hotme.com,"Avenue des Schtroumps, 13370 Veliko Curan",31.5,4. P,3
+791,791,1776,Jeanette,Garcimore,Jeanette.Garcimore@hotme.com,"Boulevard de la girafouine, 50130 Montruc",24.0,4. P,10
+792,792,1912,Jeanette,Garcimore,Jeanette.Garcimore@yopmail.com,"Hameau du hibours, 50130 Veliko Curan",6844.7,3. M,0
+793,793,1265,Laurence,Maricic,Laurence.Maricic@yopmail.com,"Boulevard de la girafouine, 13370 Staro Selo",33.5,4. P,14
+794,794,1299,Jeanette,Martin,Jeanette.Martin@yopmail.com,"Rue des bananes, 1180 Cheapbourg",250.5,4. P,0
+795,795,1646,Mamadou,Lazare,Mamadou.Lazare@youpi.com,"Avenue des Schtroumps, 13370 Montruc",63.5,4. P,6
+796,796,1628,Laurence,Martin,Laurence.Martin@gjunk.com,"Boulevard de la girafouine, 1180 Montruc",74.0,4. P,11
+797,797,1799,Jean,Bouillave,Jean.Bouillave@gjunk.com,"Hameau du hibours, 50130 Veliko Curan",13.0,4. P,10
+798,798,1703,Marc,Bouillave,Marc.Bouillave@youpi.com,"Boulevard de la girafouine, 1180 Montruc",10.0,4. P,11

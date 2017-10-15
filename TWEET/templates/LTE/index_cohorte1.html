@@ -1,0 +1,34 @@
+{% extends "LTE/starter.html" %}
+{% load staticfiles %}
+{% load humanize %}
+
+{% block content1 %}
+	
+      <h1>
+	  
+        Cohorte de recrutement: Actifs
+        <small> Données: Du {{json.DateMin}} au {{json.DateMax}}</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> {{liste_alpha}}</a></li>
+        <li class="active">Matrice</li>
+      </ol>
+	  
+{% endblock content1 %}
+
+
+{% block content2 %}
+
+		<div id="main">
+			<div id="container2">
+					<img class="img-cohorte1" src="{% static 'TRON/images/IDC_PCT.png' %}" >
+					<img class="img-cohorte1" src="{% static 'TRON/images/Valeur.png' %}" >
+					<img class="img-cohorte1" src="{% static 'TRON/images/Valeur_TOT.png' %}" >
+					
+					
+					</div>
+	
+				</div>
+	
+{% endblock content2 %}
+

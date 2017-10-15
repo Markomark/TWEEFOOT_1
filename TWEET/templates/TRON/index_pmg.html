@@ -1,0 +1,139 @@
+{% extends "TRON/base.html" %}
+{% load staticfiles %}
+{% block content2 %}
+
+		<div id="main>
+			<div class="container">
+				<div class="row main-row">
+					<div class="9u">
+						
+						<section class="left-content" id=GG>	
+							
+
+							<script src="https://d3js.org/d3.v4.min.js"></script>
+								{% load staticfiles %}
+										<script src="{% static 'TRON/js/viz2.v1.js' %}"></script>	
+										<script src="{% static 'TRON/js/jquery.min.js' %}"></script>
+							<script> 								
+
+										
+								var margin = {top: 20, right: 10, bottom: 20, left: 10};						
+								var color ={'1. TG':"#3366CC", '2. G':"#109618",  '3. M':"#FF9900", '4. P':"#DC3912", Plus:"#990099", Small:"#0099C6"};
+								var svg = d3.select("#GG").append("svg").attr("width", 1200).attr("height", 800);
+								var g = svg.append("g").attr("transform","translate(300,50)");
+								g.append("text").attr("x",-50).attr("y",-18).style("text-anchor","middle").text("Clients").attr("class","label");  
+								g.append("text").attr("x",550).attr("y",-18).style("text-anchor","middle").text("CA").attr("class","label");  
+
+								function createArray(length) {
+									var arr = new Array(length || 0),
+										i = length;
+
+									if (arguments.length > 1) {
+										var args = Array.prototype.slice.call(arguments, 1);
+										while(i--) arr[length-1 - i] = createArray.apply(this, args);
+									}
+
+									return arr;
+								}
+								var counts = 0;
+								var data=createArray(4, 4); ; var field2=[]; 	
+								d3.tsv("/static/data/"+"{{liste_alpha}}"+"/ZIG_5.tsv", function(data2) {
+										
+										  data2.forEach(function(d) {
+											
+											   data[counts].unshift(d.PMG,d.PMG,+d.IDC,+d.MT_TOT);
+											   field2.push(+d.MT_TOT);
+											   counts=counts+1;
+										   
+										  });
+
+								  
+										 
+
+									
+										 console.log(data[0]);
+										 console.log("data",data);
+									
+										 var bp=viz.bP()
+												.data(data)
+												.min(12)
+												.pad(1)
+												.height(500)
+												.width(500)
+												.barSize(35)
+												.fill(d=>color[d.primary]);
+													
+										g.call(bp);
+
+										g.selectAll(".mainBars")
+											.on("mouseover",mouseover)
+											.on("mouseout",mouseout)
+
+										g.selectAll(".mainBars").append("text").attr("class","label")
+											.attr("x",d=>(d.part=="primary"? -30: 30))
+											.attr("y",d=>+6)
+											.text(d=>d.key)
+											.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+											
+										g.selectAll(".mainBars").append("text").attr("class","perc")
+											.attr("x",d=>(d.part=="primary"? -100: 80))
+											.attr("y",d=>+6)
+											.text(function(d){ return d3.format("0.0%")(d.percent)})
+											.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+											
+										g.selectAll(".mainBars").append("text").attr("class","IDC")
+											.attr("x",d=>(d.part=="primary"? -150: 130))
+											.attr("y",d=>+6)	
+											.text(function(d){ return d.part=="primary"? d3.format(",d")(d.value)+" Clients":d3.format(",d")(d.value)+" Euros"})
+											.attr("text-anchor",d=>(d.part=="primary"? "end": "start"));
+
+										function mouseover(d){
+											bp.mouseover(d);
+											g.selectAll(".mainBars")
+											.select(".perc")
+											.text(function(d){ return d3.format("0.0%")(d.percent)})
+										}
+										function mouseout(d){
+											bp.mouseout(d);
+											g.selectAll(".mainBars")
+												.select(".perc")
+											.text(function(d){ return d3.format("0.0%")(d.percent)})
+										}
+
+										d3.select(self.frameElement).style("height", "800px");
+								});
+														
+							</script>
+							
+											
+						</section>
+					
+					</div>
+					<div class="3u">
+						<section class="right-content" id=GG2>	
+						
+	
+						<section class="RC">	
+							</br>
+							ETAPE </br> </br>
+							<a href="/user2/{{liste_alpha}}/" >PMG</a> </br>
+							<a href="/user10/{{liste_alpha}}/" >RECENCE</a> </br>
+							<a href="/user9/{{liste_alpha}}/" >MATRICE</a> </br>
+							
+
+						
+						
+
+						</section>
+						<section>
+						
+							
+					
+							 
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+{% endblock content2 %}
+

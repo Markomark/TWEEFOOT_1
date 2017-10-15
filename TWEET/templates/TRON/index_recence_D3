@@ -1,0 +1,309 @@
+{% extends "TRON/base.html" %}
+{% load staticfiles %}
+{% block content2 %}
+
+		<div id="main>
+			<div class="container">
+				<div class="row main-row">
+					<div class="6u">
+						
+						<section class="left-content" id=GG>	
+							    <div id="chart"></div>
+
+							<script src="http://d3js.org/d3.v4.js"></script>
+								{% load staticfiles %}
+							    <script>
+									var	margin = {top: 50	, right: 20, bottom: 50, left: 100},
+										width = 600 - margin.left - margin.right,
+										height = 300 - margin.top - margin.bottom;
+										
+									var chart1 = d3.select("#GG")
+										.append("svg")
+											.attr("width", width + margin.left + margin.right)
+											.attr("height", height + margin.top + margin.bottom)
+										.append("g")
+											.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+									var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
+										y = d3.scaleLinear().rangeRound([height, 0]);
+
+									// Parse the date / time
+									var parseTime = d3.timeParse("%Y-%m-%d");
+										
+									chemin="/static/data/"+"{{liste_alpha}}"+"/ZIG_9.tsv";
+									
+									var xAxis = d3.axisBottom(x)
+													.tickFormat(d3.timeFormat("%b"));
+													
+													
+																		
+									var line = d3.line()
+										.x(function(d) { return x(d.KEY); })
+										.y(function(d) { return y(d.MT); });
+										
+										
+									d3.tsv(chemin, function(d) {	
+									d.KEY = d.RECENCE;	
+									d.MT = +d.NB;
+									  return d;	
+									  console.log(d.KEY	);
+									}, function(error, data) {
+									  if (error) throw error;
+
+									  x.domain(data.map(function(d) { return d.KEY; }));
+									  y.domain([0, d3.max(data, function(d) { return d.MT; })]);
+
+									  
+
+										
+									  chart1.append("g")
+										  .attr("class", "axis axis--x")
+										  .attr("transform", "translate(0," + height + ")")
+										  .call(d3.axisBottom(x))
+										  .selectAll("text") 
+											.attr("dx", "-2.8em")
+											.attr("dy", ".2em")
+											.attr("transform", "rotate(-45)");
+									  
+											
+											  //Create X axis label   
+									  chart1.append("text")
+											.attr("x", width / 2 )
+											.attr("y",  height + margin.bottom)
+											.style("text-anchor", "middle")
+											.text("Recence")
+											.attr("font-size",  "20px")
+											.attr("font-family",  "Calibri")
+											;  
+
+									  chart1.append("text")
+											.attr("x", width / 2)
+											.attr("y",  -25)
+											.style("text-anchor", "middle")
+											.text("Recence")
+											.attr("font-size",  "20px")
+											.attr("font-family",  "Calibri")
+											;  
+
+									  chart1.append("g")
+										  .attr("class", "axis axis--y")
+										  .call(d3.axisLeft(y).ticks(5))
+										.append("text")	
+										  .attr("transform", "rotate(-90)")
+										  .attr("y", 6)
+										  .attr("dy", ".2em")
+										  .attr("text-anchor", "end")
+										  .text("MT")
+										  
+										  ;
+										  
+										  
+										
+									  chart1.append("text")	
+											.attr("x",  -70)
+											.attr("y",  height/2)
+											.style("text-anchor", "middle")
+											.text("Clients")
+											.attr("font-size",  "20px")
+											.attr("font-family",  "Calibri")
+											;  
+										
+														
+									  chart1.selectAll(".bar")
+										.data(data)
+										.enter().append("rect")
+										  .attr("class", "bar")
+
+										  .attr("x", function(d) { return x(d.KEY); })
+										  .attr("y", function(d) { return y(d.MT); })
+										  .attr("width", x.bandwidth())
+										  .attr("height", function(d) { return height - y(d.MT); });
+						
+										  
+
+									});
+
+									</script>
+							
+											
+											
+																    <script>
+									var	margin = {top: 50	, right: 20, bottom: 50, left: 100},
+										width = 600 - margin.left - margin.right,
+										height = 300 - margin.top - margin.bottom;
+										
+									var chart2 = d3.select("#GG")
+										.append("svg")
+											.attr("width", width + margin.left + margin.right)
+											.attr("height", height + margin.top + margin.bottom)
+										.append("g")
+											.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+									var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
+										y = d3.scaleLinear().rangeRound([height, 0]);
+
+									// Parse the date / time
+									var parseTime = d3.timeParse("%Y-%m-%d");
+										
+									chemin="/static/data/"+"{{liste_alpha}}"+"/ZIG_9.tsv";
+									
+									var xAxis = d3.axisBottom(x)
+													.tickFormat(d3.timeFormat("%b"));
+													
+													
+																		
+									var line = d3.line()
+										.x(function(d) { return x(d.KEY); })
+										.y(function(d) { return y(d.MT); });
+										
+										
+									d3.tsv(chemin, function(d) {	
+									d.KEY = d.RECENCE;	
+									d.MT = +d.no_cumulative/+d.no_cumulative2;
+									  return d;	
+									  console.log(d.KEY	);
+									}, function(error, data) {
+									  if (error) throw error;
+
+									  x.domain(data.map(function(d) { return d.KEY; }));
+									  y.domain([0, d3.max(data, function(d) { return d.MT; })]);
+
+									  
+
+										
+									  chart2.append("g")
+										  .attr("class", "axis axis--x")
+										  .attr("transform", "translate(0," + height + ")")
+										  .call(d3.axisBottom(x))
+										  .selectAll("text") 
+											.attr("dx", "-2.8em")
+											.attr("dy", ".2em")
+											.attr("transform", "rotate(-45)");
+									  
+											
+											  //Create X axis label   
+									  chart2.append("text")
+											.attr("x", width / 2 )
+											.attr("y",  height + margin.bottom)
+											.style("text-anchor", "middle")
+											.text("Recence")
+											.attr("font-size",  "20px")
+											.attr("font-family",  "Calibri")
+											;  
+
+									  chart2.append("text")
+											.attr("x", width / 2)
+											.attr("y",  -25)
+											.style("text-anchor", "middle")
+											.text("Recence")
+											.attr("font-size",  "20px")
+											.attr("font-family",  "Calibri")
+											;  
+
+									  chart2.append("g")
+										  .attr("class", "axis axis--y")
+										  .call(d3.axisLeft(y).ticks(5))
+										.append("text")	
+										  .attr("transform", "rotate(-90)")
+										  .attr("y", 6)
+										  .attr("dy", ".2em")
+										  .attr("text-anchor", "end")
+										  .text("MT")
+										  
+										  ;
+										  
+										  
+										
+									  chart2.append("text")	
+											.attr("x",  -70)
+											.attr("y",  height/2)
+											.style("text-anchor", "middle")
+											.text("Clients")
+											.attr("font-size",  "20px")
+											.attr("font-family",  "Calibri")
+											;  
+										
+														
+									  chart2.selectAll(".bar")
+										.data(data)
+										.enter().append("rect")
+										  .attr("class", "bar")
+
+										  .attr("x", function(d) { return x(d.KEY); })
+										  .attr("y", function(d) { return y(d.MT); })
+										  .attr("width", x.bandwidth())
+										  .attr("height", function(d) { return height - y(d.MT); });
+						
+										  
+
+									});
+
+									</script>
+						</section>
+					
+					</div>
+						<div class="3u">
+						<section class="right-content" id=GG3>	
+						
+	
+	
+						<section class="RC">	
+							</br>
+							RECENCE: REPARTITION </br> </br>
+							Moins d'1 mois: {{Z1|floatformat:1}}% </br>
+							{{ZZ1}} Clients
+							</br></br>
+							1 mois: {{Z2|floatformat:1}}% </br>
+							{{ZZ2}} Clients
+							</br></br>
+							2 à 5 mois: {{Z3|floatformat:1}}% </br>
+							{{ZZ3}} Clients
+							</br></br>
+							6 à 11 mois: {{Z4|floatformat:1}}% </br>
+							{{ZZ4}} Clients
+							</br></br>
+							12 mois &+: {{Z5|floatformat:1}}% </br>
+							{{ZZ5}} Clients
+							</br></br>
+							</br>
+							 
+						
+
+						</section>
+						<section>
+						
+							
+					
+							 
+						</section>
+					</div>
+					<div class="3u">
+						<section class="right-content" id=GG2>	
+						
+	
+	
+						<section class="RC">	
+							</br>
+							ETAPE </br> </br>
+							<a href="/user2/{{liste_alpha}}/" >PMG</a> </br>
+							<a href="/user10/{{liste_alpha}}/" >RECENCE</a> </br>
+							<a href="/user9/{{liste_alpha}}/" >MATRICE</a> </br>	
+
+						
+						
+
+						</section>
+						<section>
+						
+							
+					
+							 
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+{% endblock content2 %}
+

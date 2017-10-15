@@ -1,0 +1,161 @@
+	
+
+
+	<html>
+	<head>
+		<title>MARKETOTRON</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+
+
+		
+
+
+	{% load staticfiles %}
+		<link href="{% static 'TRON/css/style.css' %}" rel="stylesheet">
+		<link href="{% static 'TRON/css/skel-noscript.css' %}" rel="stylesheet">
+		<link href="{% static 'TRON/css/style-desktop.css' %}" rel="stylesheet">
+		
+			
+		<script src="{% static 'TRON/js/jquery.min.js' %}"></script>
+		<script src="{% static 'TRON/js/config.js' %}"></script>
+		<script src="{% static 'TRON/skel.min.js' %}"></script>
+		<script src="{% static 'TRON/js/skel-panels.min.js' %}"></script>
+		
+			
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+	</head>
+
+
+	<body>
+	<!-- ********************************************************* -->
+		<div id="header-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="12u">
+						
+						<header id="header">
+							<h1><a href="#" id="logo">MARKETOTRON </a></h1>
+							
+								<nav id="nav">
+								
+	
+							</nav>
+							
+							<h2 class=ZZZZ>Bat Pig Productions</h2>
+						</header>
+					
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div id="main>
+			<div class="container">
+				<div class="row main-row">
+					<div class="6u">
+						
+						<section class="left-content" id=GG>	
+
+
+							<img src="{% static 'images/images1.JPEG' %}" alt="My image"/>	
+							
+							
+	
+						</section>
+					
+					</div>
+					<div class="6u">
+						<section class="right-content" id=GG2>	
+						</br>
+										<a href="/GO" class="button2">GO</a>				
+		
+						</section>
+						<section>
+						
+								
+								<div class="container">
+								  
+								  <div class="form-group">
+									<input type="file" name="img[]" class="file">
+									<div class="input-group col-xs-12">
+									  <span class="input-group-addon"><i class="glyphicon glyphicon-picture"></i></span>
+									  <input type="text" class="form-control input-lg" disabled placeholder="Upload Image">
+									  <span class="input-group-btn">
+										<button class="browse btn btn-primary input-lg" type="button"><i class="glyphicon glyphicon-search"></i> Browse</button>
+									  </span>
+									</div>o
+								  </div>
+
+								  </div>
+
+								</div>
+								<script>
+								$(document).on('click', '.browse', function(){
+									  var file = $(this).parent().parent().parent().find('.file');
+									  file.trigger('click');
+									});
+									$(document).on('change', '.file', function(){
+									  $(this).parent().find('.form-control').val($(this).val().replace(/C:\\fakepath\\/i, ''));
+									});
+								</script>
+							<h2>
+								PROJETS	
+								</br>
+								{% for dir in liste_alpha %}
+									 
+									<a href="http://localhost:8000/user/{{ dir }}/"> {{ dir}} </a>
+									
+									
+									</br>
+								{% endfor %}
+								
+							
+							</h2>
+								
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="8u">
+						
+						<section>
+							
+							<div>
+								
+								</div>
+							</div>
+						</section>
+					
+					</div>
+					<div class="4u">
+	
+						<section>
+
+							<footer class="controls">
+								<a href="mailto:mateko@alwaysdata.net" class="button">Contact</a>
+							</footer>
+						</section>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="12u">
+
+						<div id="copyright">
+							&copy; BatPig Productions. All rights reserved. | Design: <a href="http://html5up.net">HTML5 UP</a> </a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- ********************************************************* -->
+	</body>
+</html>

@@ -1,0 +1,53 @@
+{% extends "TRON/base.html" %}
+{% load staticfiles %}
+{% block content2 %}
+
+<body>
+			<div class="row main-row">
+				
+				
+				
+					<div class="10u">
+						
+						<section class="left-content" >	
+								
+						<iframe
+							src="{{iframeUrl}}"
+							frameborder="0"
+							width="1000"
+							height="800"
+							allowtransparency
+						>
+						</iframe>									
+							
+
+						
+
+						</section>
+					</div>
+					
+					<div class="2u">
+						
+
+							
+
+						<section class="RC">	
+							</br>
+							HORIZON </br> </br>
+							<a href="/meta1/{{liste_alpha}}/GLOBAL1_/" >Transactions</a> </br>
+							<a href="/meta1/{{liste_alpha}}/GLOBAL3_/" >CA</a> </br>
+							<a href="/meta1/{{liste_alpha}}/GLOBAL2_/" >Actifs</a> </br>
+							<a href="/meta1/{{liste_alpha}}/GLOBAL2_/" >Valeur</a> </br>
+						</div section>
+
+						
+						</section>
+					</div>
+					
+
+				</div>
+
+
+</body>
+
+{% endblock content2 %}

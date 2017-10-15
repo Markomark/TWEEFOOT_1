@@ -1,0 +1,347 @@
+{% extends "LTE/starter.html" %}
+{% load staticfiles %}
+{% load humanize %}
+
+{% block haut1 %}
+
+
+		 <!-- DROPDOWN LEAGUES-->
+          <li class="dropdown messages-menu">
+            <!-- Menu toggle button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-hourglass"></i> Period
+             
+            </a>
+			
+		
+			
+            <ul class="dropdown-menu">
+              
+			
+              <li>
+                <!-- inner menu: contains the messages -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="/TOP/fav/J7/{{texte2}}">
+                      
+                      <!-- Message title and timestamp -->
+                      <h4>
+						Last 7 days
+                       
+                      </h4>
+                      <!-- The message -->
+                     
+                    </a>
+                  </li>
+                  <!-- end message -->
+                </ul>
+                <!-- /.menu -->
+              </li>
+			  
+			      <li>
+                <!-- inner menu: contains the messages -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="/TOP/fav/J30/{{texte2}}">
+                      
+                      <!-- Message title and timestamp -->
+                      <h4>
+						Last 30 days
+                       
+                      </h4>
+                      <!-- The message -->
+                     
+                    </a>
+                  </li>
+                  <!-- end message -->
+                </ul>
+                <!-- /.menu -->
+              </li>
+			  
+			  			      <li>
+                <!-- inner menu: contains the messages -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="/TOP/fav/J365/{{texte2}}">
+                      
+                      <!-- Message title and timestamp -->
+                      <h4>
+						Last 365 days
+                       
+                      </h4>
+                      <!-- The message -->
+                     
+                    </a>
+                  </li>
+                  <!-- end message -->
+                </ul>
+                <!-- /.menu -->
+              </li>
+			  
+              
+            </ul>
+          </li>
+		  
+		  
+
+		 <!-- DROPDOWN LEAGUES-->
+          <li class="dropdown messages-menu">
+            <!-- Menu toggle button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-soccer-ball-o"></i> Leagues
+              <span class="label label-success">{{liste_league|length}}</span>
+            </a>
+			
+		
+			
+            <ul class="dropdown-menu">
+              
+			  {% for BT in liste_league  %}
+              <li>
+                <!-- inner menu: contains the messages -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="/TOP/fav/J365/?country_league={{BT.country_league}}">
+                      <div class="pull-left">
+                        <!-- User Image -->
+                        <img src="{{BT.profile_image_url|cut:'_normal'}}" class="img-circle" alt="User Image">
+                      </div>
+                      <!-- Message title and timestamp -->
+                      <h4>
+						{{BT.nom}}
+                       
+                      </h4>
+                      <!-- The message -->
+                      <p>{{BT.club}}</p>
+                    </a>
+                  </li>
+                  <!-- end message -->
+                </ul>
+                <!-- /.menu -->
+              </li>
+			  {% endfor %}
+              <li class="footer"><a href="/TOP/fav/J365">See All</a></li>
+            </ul>
+          </li>
+
+{% endblock haut1 %}
+		
+
+{% block haut2 %}
+
+
+				 <!-- DROPDOWN CLUBS-->
+          <li class="dropdown messages-menu">
+            <!-- Menu toggle button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa  fa-users"></i>  Clubs
+              <span class="label label-success">{{liste_clubs|length}}</span>
+            </a>
+			
+		
+			
+            <ul class="dropdown-menu">
+              
+			  {% for BT in liste_clubs|slice:"0:10"  %}
+              <li>
+                <!-- inner menu: contains the messages -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="/TOP/fav/J365/?club={{BT.club}}">
+                      <div class="pull-left">
+                        <!-- User Image -->
+                        <img src="{{BT.profile_image_url|cut:'_normal'}}" class="img-circle" alt="User Image">
+                      </div>
+                      <!-- Message title and timestamp -->
+                      <h4>
+						{{BT.nom}}
+                       
+                      </h4>
+                      <!-- The message -->
+                      <p>{{BT.club}}</p>
+                    </a>
+                  </li>
+                  <!-- end message -->
+                </ul>
+                <!-- /.menu -->
+              </li>
+			  {% endfor %}
+              <li class="footer"><a href="/TOP/fav/J365">See All</a></li>
+            </ul>
+          </li>
+
+{% endblock haut2 %}
+		  
+
+
+
+{% block content1 %}
+	
+      <h1>
+		{% for tweet in ref_ %}
+		<img src="{{tweet.profile_image_url|cut:'_normal'}}" class="img-circle" alt="User Image" id="img-haut">
+		{% endfor %}
+		
+       {{texte}} 
+		{% if how_many_days %}
+        <small> Last {{how_many_days}} days</small>
+		{% endif  %}
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> {{liste_alpha}}</a></li>
+        <li class="active">TOP Tweets</li>
+      </ol>
+	  
+{% endblock content1 %}
+
+
+{% block content2 %}
+
+		<div id="main">
+			<div class="container">
+		<div class="row">					
+		<div class="col-md-6">
+		{% if liste_tweet %}
+								
+								{% for tweet in liste_tweet|slice:"0:20" %}
+
+	
+       
+          <!-- Box Comment -->
+		  
+          <div class="box box-widget">
+            <div class="box-header with-border">
+			<a href="/AS/{{tweet.id_twit}}">
+              <div class="user-block">
+			   
+                <img class="img-circle" src="{{tweet.profile_image_url_u|cut:'_normal'}}" alt="User Image">
+				
+                <span class="username"><a href="https://twitter.com/{{tweet.id_twit}}/status/{{tweet.idd}}"></a>
+				{{tweet.name_u}} / {{tweet.club}}</span>
+				
+				</br>
+				<span class="label label-primary pull-right" id="numero2"> {{tweet.numero}} </span>
+				@{{tweet.id_twit}}</a> <i class="fa fa-check-square"></i></span>
+				
+				 </br>
+                <span class="description pull-right">{{tweet.col|naturaltime}}</span>
+              </div>
+			    </a>
+              <!-- /.user-block -->
+              <div class="box-tools">
+
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <img class="img-responsive pad" src="{{tweet.media_url}}" alt="Photo">
+
+              <p>{{tweet.text}}</p>
+			  </br>
+			  
+			  			  
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Retweet</button>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">{{tweet.favorite_count|floatformat:"0"|intcomma}} Likes - {{tweet.retweet_count|floatformat:"0"|intcomma}} Retweets</span>
+            </div>
+            <!-- /.box-body -->
+      
+            <!-- /.box-footer -->
+  
+            <!-- /.box-footer -->
+          </div>
+		  
+		
+          <!-- /.box -->
+       
+        <!-- /.col -->
+ 
+        <!-- /.col -->
+      
+	  
+								
+								{% endfor %}
+								
+							{% endif %}
+
+ </div>				
+	<div class="col-md-6">
+		{% if liste_tweet %}
+								
+								{% for tweet in liste_tweet|slice:"20:40" %}
+
+	
+          <!-- Box Comment -->
+          <div class="box box-widget">
+            <div class="box-header with-border">
+              <div class="user-block">
+			   
+                <img class="img-circle" src="{{tweet.profile_image_url_u|cut:'_normal'}}" alt="User Image">
+				
+                <span class="username"><a href="https://twitter.com/{{tweet.id_twit}}/status/{{tweet.idd}}">
+				{{tweet.name_u}} / {{tweet.club}}
+				
+				</br>
+				<span class="label label-primary pull-right"> {{tweet.numero}} </span>
+				@{{tweet.id_twit}}</a> <i class="fa fa-check-square"></i></span>
+				
+				 
+                <span class="description">{{tweet.col|naturaltime}}</span>
+              </div>
+              <!-- /.user-block -->
+              <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Mark as read">
+                  <i class="fa fa-circle-o"></i></button>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <img class="img-responsive pad" src="{{tweet.media_url}}" alt="Photo">
+
+              <p>{{tweet.text}}</p>
+			  </br>
+			  
+			  			  
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Retweet</button>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">{{tweet.favorite_count|floatformat:"0"|intcomma}} Likes - {{tweet.retweet_count|floatformat:"0"|intcomma}} Retweets</span>
+            </div>
+            <!-- /.box-body -->
+      
+            <!-- /.box-footer -->
+  
+            <!-- /.box-footer -->
+          </div>
+          <!-- /.box -->
+       
+        <!-- /.col -->
+ 
+        <!-- /.col -->
+      
+	  
+								
+								{% endfor %}
+								
+							{% endif %}
+
+ </div>				
+
+ </div>
+	  
+				
+				
+				
+				
+					</div>
+				</div>
+			</div>
+		</div>	
+{% endblock content2 %}

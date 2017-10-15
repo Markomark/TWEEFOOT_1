@@ -1,0 +1,6 @@
+if 'excel' in request.POST:
+    response = HttpResponse(content_type='application/vnd.ms-excel')
+    response['Content-Disposition'] = 'attachment; filename=Report.xlsx'
+    xlsx_data = WriteToExcel(weather_period, town)
+    response.write(xlsx_data)
+    return response

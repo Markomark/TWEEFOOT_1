@@ -1,0 +1,101 @@
+{% extends "LTE/starter.html" %}
+{% load staticfiles %}
+{% load humanize %}
+
+{% block content1 %}
+	
+      <h1>
+	  
+        Répartition PMG
+        <small> Données: Du {{json.DateMin}} au {{json.DateMax}}</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> {{liste_alpha}}</a></li>
+        <li class="active">PMG</li>
+      </ol>
+	  
+{% endblock content1 %}
+
+
+{% block content2 %}
+
+		<div id="main>
+			<div class="container">
+		<div class="row">	
+
+		
+	{% if BaseTweetos %}	
+							
+							
+								{% for question in BaseTweetos|slice:"0:19" %}
+		
+			
+		   <div class="col-md-4">
+          <!-- Widget: user widget style 1 -->
+          <div class="box box-widget widget-user">
+            <!-- Add the bg color to the header using any of the bg-* classes -->
+            <div class="widget-user-header bg-aqua-active" >
+              
+			 <span class="label label-primary pull-right"> {{question.numero}} </span>
+			  <h3 class="widget-user-username">{{question.numero}}.    {{question.name}}</h3>
+			  <h5 class="widget-user-desc">{{question.club}}</h5>
+			  
+			  <h5 class="widget-user-desc" id="screen">@{{question.screen_name}}</h5>
+              
+			  
+			  
+            </div>
+            <div class="widget-user-image">
+              <img class="img-circle" src="{{question.profile_image_url|cut:'_normal'}}" alt="User Avatar">
+            </div>
+            <div class="box-footer">
+              <div class="row">
+                <div class="col-sm-4 border-right">
+                  <div class="description-block">
+                    <h5 class="description-header">{{question.statuses_count|intcomma}}</h5>
+                    <span class="description-text">Tweets</span>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-4 border-right">
+                  <div class="description-block">
+                    <h5 class="description-header">{{question.followers_count|intcomma}}</h5>
+                    <span class="description-text">FOLLOWERS</span>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-4">
+                  <div class="description-block">
+                    <h5 class="description-header">{{question.last_tw|naturaltime}}</h5>
+                    <span class="description-text">PRODUCTS</span>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+          </div>
+          <!-- /.widget-user -->
+        </div>
+		
+			{% endfor %}
+								
+							{% endif %}	
+		
+		
+		
+		
+ </div>
+	  
+				
+				
+				
+				
+					</div>
+				</div>
+			</div>
+		</div>	
+{% endblock content2 %}

@@ -1,0 +1,147 @@
+{% extends "LTE/starter.html" %}
+{% load staticfiles %}
+{% load humanize %}
+
+
+{% block content1 %}
+      <h1>
+	  
+        Synthèse
+        <small> Données: Du {{json.DateMin}} au {{json.DateMax}}</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> {{liste_alpha}}</a></li>
+        <li class="active">Synthèse</li>
+      </ol>
+	  
+{% endblock content1 %}
+
+
+{% block content2 %}
+
+      <div class="row">
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner">
+              <h3>{{json.Transactions|intcomma}}</h3>
+
+              <p>Transactions</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-bag"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-green">
+            <div class="inner">
+              <h3>{{json.Ca|intcomma}} €</h3>
+
+              <p>Chiffre d'Affaire</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-stats-bars"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-yellow">
+            <div class="inner">
+              <h3>{{json.Clients|intcomma}}</h3>
+
+              <p>Clients</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-red">
+            <div class="inner">
+              <h3>{{json.Range}}</h3>
+
+              <p>Jours</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-battery-charging"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+      </div>
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-light-blue">
+            <div class="inner">
+              <h3>{{json.Panier}} €</h3>
+
+              <p>Produits</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-cube"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>		
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-purple">
+            <div class="inner">
+              <h3>{{json.Panier|floatformat:"2"}} €</h3>
+
+              <p>Panier moyen</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-pie-graph"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-maroon">
+            <div class="inner">
+              <h3>{{json.Valeur_Moy|floatformat:"0"|intcomma}} €</h3>
+
+              <p>Valeur Client</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-cash"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-fuchsia">
+            <div class="inner">
+              <h3>{{json.Valeur_Max|floatformat:"0"|intcomma}} €</h3>
+
+              <p>Client Max</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-flame"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+
+		
+	
+      </div>
+{% endblock content2 %}

@@ -1,0 +1,53 @@
+{% extends "TRON/base.html" %}
+{% load staticfiles %}
+{% block content2 %}
+{% load humanize %}
+
+<body>
+			<div class="row main-row">
+				
+				
+				
+					<div class="10u">
+						
+						<section class="left-content" >	
+							</br> </br>
+							Période d'analyse: {{json.DateMin}} à {{json.DateMax}} </br>
+							Transactions: {{json.Transactions|intcomma}} </br>
+							Chiffre d'affaires total: {{json.CA|intcomma}} </br>
+							Clients total: {{json.CLIENTS|intcomma}} </br>
+							</br></br>
+						
+							</br>								
+							
+
+						
+
+						</section>
+					</div>
+					
+					<div class="2u">
+						
+
+							
+
+						<section class="RC">	
+							</br>
+							HORIZON </br> </br>
+							<a href="/meta1/{{liste_alpha}}/GLOBAL1_/" >Transactions</a> </br>
+							<a href="/meta1/{{liste_alpha}}/GLOBAL3_/" >CA</a> </br>
+							<a href="/meta1/{{liste_alpha}}/GLOBAL2_/" >Actifs</a> </br>
+							<a href="/meta1/{{liste_alpha}}/GLOBAL2_/" >Valeur</a> </br>
+						</div section>
+
+						
+						</section>
+					</div>
+					
+
+				</div>
+
+
+</body>
+
+{% endblock content2 %}

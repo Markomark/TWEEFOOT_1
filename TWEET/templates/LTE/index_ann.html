@@ -1,0 +1,205 @@
+{% extends "LTE/starter.html" %}
+{% load staticfiles %}
+{% load humanize %}
+
+
+{% block haut1 %}
+
+
+		 <!-- DROPDOWN LEAGUES-->
+          <li class="dropdown messages-menu">
+            <!-- Menu toggle button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa fa-soccer-ball-o"></i> Leagues
+              <span class="label label-success">{{liste_league|length}}</span>
+            </a>
+			
+		
+			
+            <ul class="dropdown-menu">
+              
+			  {% for BT in liste_league  %}
+              <li>
+                <!-- inner menu: contains the messages -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="/LIST/fav/?country_league={{BT.league_field}}">
+                      <div class="pull-left">
+                        <!-- User Image -->
+                        <img src="{{BT.profile_image_url|cut:'_normal'}}" class="img-circle" alt="User Image">
+                      </div>
+                      <!-- Message title and timestamp -->
+                      <h4>
+						{{BT.nom}}
+                       
+                      </h4>
+                      <!-- The message -->
+                      <p>{{BT.club}}</p>
+                    </a>
+                  </li>
+                  <!-- end message -->
+                </ul>
+                <!-- /.menu -->
+              </li>
+			  {% endfor %}
+              <li class="footer"><a href="#">See All</a></li>
+            </ul>
+          </li>
+
+{% endblock haut1 %}
+		
+
+{% block haut2 %}
+
+
+				 <!-- DROPDOWN CLUBS-->
+          <li class="dropdown messages-menu">
+            <!-- Menu toggle button -->
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <i class="fa  fa-users"></i>  Clubs
+              <span class="label label-success">{{liste_clubs|length}}</span>
+            </a>
+			
+		
+			
+            <ul class="dropdown-menu">
+              
+			  {% for BT in liste_clubs|slice:"0:10"  %}
+              <li>
+                <!-- inner menu: contains the messages -->
+                <ul class="menu">
+                  <li><!-- start message -->
+                    <a href="/LIST/fav/?club={{BT.club}}">
+                      <div class="pull-left">
+                        <!-- User Image -->
+                        <img src="{{BT.profile_image_url|cut:'_normal'}}" class="img-circle" alt="User Image">
+                      </div>	
+                      <!-- Message title and timestamp -->
+                      <h4>
+						{{BT.nom}}
+                       
+                      </h4>
+                      <!-- The message -->
+                      <p>{{BT.club}}</p>
+                    </a>
+                  </li>
+                  <!-- end message -->
+                </ul>
+                <!-- /.menu -->
+              </li>
+			  {% endfor %}
+              <li class="footer"><a href="#">See All</a></li>
+            </ul>
+          </li>
+
+{% endblock haut2 %}
+ 
+
+
+
+
+{% block content1 %}
+	
+      <h1>
+		{% for tweet in ref_ %}
+		<img src="{{tweet.profile_image_url|cut:'_normal'}}" class="img-circle" alt="User Image" id="img-haut">
+		
+		
+        All accounts: {{tweet.club}}  {% ifequal  tweet.entraineur 3 %} {{tweet.league_field}}  {% endifequal %}
+        <small> By followers</small>
+		{% endfor %}
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> {{liste_alpha}}</a></li>
+        <li class="active">Directory</li>
+      </ol>
+	  
+{% endblock content1 %}
+
+
+{% block content2 %}
+
+		<div id="main>
+			<div class="container">
+		<div class="row">	
+
+		
+	{% if BaseTweetos %}	
+							
+							
+								{% for question in BaseTweetos|slice:"0:19" %}
+		
+			
+		   <div class="col-md-4">
+          <!-- Widget: user widget style 1 -->
+		  <a href="/AS/{{question.screen_name}}">
+          <div class="box box-widget widget-user">
+            <!-- Add the bg color to the header using any of the bg-* classes -->
+            
+			<div class="widget-user-header bg-aqua-active" >
+              
+			 <span class="label label-primary pull-right" id="numero"> {{question.numero}} </span>
+			  <h3 class="widget-user-username">{{question.name}}</h3>
+			  <h5 class="widget-user-desc">{{question.club}}</h5>
+			  
+			  <h5 class="widget-user-desc" id="screen">@{{question.screen_name}}</h5>
+              
+			  
+			  
+            </div>
+            <div class="widget-user-image">
+              <img class="img-circle" src="{{question.profile_image_url|cut:'_normal'}}" alt="User Avatar">
+            </div>
+            <div class="box-footer">
+              <div class="row">
+                <div class="col-sm-4 border-right">
+                  <div class="description-block">
+                    <h5 class="description-header">{{question.statuses_count|intcomma}}</h5>
+                    <span class="description-text">Tweets</span>
+					</br>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-4 border-right">
+                  <div class="description-block">
+                    <h5 class="description-header">{{question.followers_count|intcomma}}</h5>
+                    <span class="description-text">Followers</span>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+                <div class="col-sm-4">
+                  <div class="description-block">
+                    <h5 class="description-header">Last tweet </h5>
+                    <span class="description-text">{{question.last_tw|naturaltime}}</span>
+                  </div>
+                  <!-- /.description-block -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+          </div>
+		  </a>
+          <!-- /.widget-user -->
+        </div>
+		
+			{% endfor %}
+								
+							{% endif %}	
+		
+		
+		
+		
+ </div>
+	  
+				
+				
+				
+				
+					</div>
+				</div>
+			</div>
+		</div>	
+{% endblock content2 %}

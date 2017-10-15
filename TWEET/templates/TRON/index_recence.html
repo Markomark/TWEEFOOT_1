@@ -1,0 +1,82 @@
+{% extends "TRON/base.html" %}
+{% load staticfiles %}
+{% block content2 %}
+
+		<div id="main>
+			<div class="container">
+				<div class="row main-row">
+					<div class="6u">
+						
+				<iframe
+					src="{{iframeUrl}}"
+					frameborder="0"
+					width="600"
+					height="1200"
+					allowtransparency
+				>
+				</iframe>		
+					
+					</div>
+						<div class="3u">
+						<section class="right-content" id=GG3>	
+						
+	
+	
+						<section class="RC">	
+							</br>
+							RECENCE: REPARTITION </br> </br>
+							Moins d'1 mois: {{Z1|floatformat:1}}% </br>
+							{{ZZ1}} Clients
+							</br></br>
+							1 mois: {{Z2|floatformat:1}}% </br>
+							{{ZZ2}} Clients
+							</br></br>
+							2 à 5 mois: {{Z3|floatformat:1}}% </br>
+							{{ZZ3}} Clients
+							</br></br>
+							6 à 11 mois: {{Z4|floatformat:1}}% </br>
+							{{ZZ4}} Clients
+							</br></br>
+							12 mois &+: {{Z5|floatformat:1}}% </br>
+							{{ZZ5}} Clients
+							</br></br>
+							</br>
+							 
+						
+
+						</section>
+						<section>
+						
+							
+					
+							 
+						</section>
+					</div>
+					<div class="3u">
+						<section class="right-content" id=GG2>	
+						
+	
+	
+						<section class="RC">	
+							</br>
+							ETAPE </br> </br>
+							<a href="/user2/{{liste_alpha}}/" >PMG</a> </br>
+							<a href="/user10/{{liste_alpha}}/" >RECENCE</a> </br>
+							<a href="/user9/{{liste_alpha}}/" >MATRICE</a> </br>	
+
+						
+						
+
+						</section>
+						<section>
+						
+							
+					
+							 
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+{% endblock content2 %}
+

@@ -1,0 +1,99 @@
+{% extends "TRON/base.html" %}
+{% load staticfiles %}
+{% block content2 %}
+
+{% if latest_question_list %}
+
+	{% if country %}
+	<h2>Populars - {{country|lower|capfirst}}  players</h2>
+	{% else %}
+	<h2>Populars - Euro players</h2>	
+	{% endif%}
+
+	
+    
+	<div>
+		<ul>
+			{% for question in latest_question_list %}
+			<li class=ZZ>
+			<img class="avatar" src={{ question.profile_image_url }} alt=""> 
+			<img class="suivre" src="{% static "images/"|add:question.country|add:".JPG" %}" alt="My image"/>			
+			<img class="suivre" src="{% static "images/follow.png" %}" alt="">	
+			
+			<img class="suivre2" src="{% static "images/verified.png" %}" alt="">	
+			<h3>
+			<a href="/{{ question.t_id|floatformat:0 }}">{{ question.country }} - {{ question.player }} </a>
+			</h3>
+			<h4 class=ZZZ> Pseudo: {{ question.screen_name }} <br> Description: {{ question.description }}  <br> Followers: {{ question.followers_count|floatformat:0 }}  </h4>
+			</li>
+			{% endfor %}	
+		</ul>
+	</div>
+    
+	
+	<div class="pagination">
+    <span class="step-links">
+
+    </span>
+</div>
+	
+
+{% else %}
+    <p>???</p>
+{% endif %}
+{% endblock content2 %}
+
+
+{% block content3 %}
+
+{% if liste_country %}
+
+    {% for question in liste_country %}
+        <ul class="droite">
+		<a href="?country={{ question.country }}">{{ question.country }}</a>
+		</ul>
+
+		
+    {% endfor %}
+
+{% else %}
+    <p>???</p>
+{% endif %}
+{% endblock content3 %}
+
+{% block content41 %}
+
+{% if liste_type %}
+
+    {% for question in liste_type %}
+        <li>
+		<a href="/{{ question.type }}/">{{ question.type }}</a>
+		</li>
+
+		
+    {% endfor %}
+
+{% else %}
+    <p>???</p>
+{% endif %}
+
+{% endblock content41%}	
+
+
+{% block content4 %}	
+
+{% if liste_alpha %}
+		<li class="droite">
+		{% for alpha in liste_alpha %}
+		<a href="/{{ alpha }}/">{{ alpha }}</a>
+		{% endfor %}		
+		</li>
+
+
+
+{% else %}
+    <p>???</p>
+{% endif %}
+
+
+{% endblock content4%}

@@ -1,0 +1,51 @@
+{% extends "TRON/base.html" %}
+{% load staticfiles %}
+{% block content2 %}
+
+
+			<div class="row main-row">
+				
+				
+				
+					<div class="6u">
+						
+						<section class="left-content" >	
+								
+						<iframe
+							src="{{iframeUrl}}"
+							frameborder="0"
+							width="800"
+							height="600"
+							allowtransparency
+						>
+						</iframe>									
+
+								
+
+						</section>
+					</div>
+					
+					<div class="6u">
+						
+						<section class="left-content" >	
+
+														
+						<iframe
+							src="{{iframeUrl2}}"
+							frameborder="0"
+							width="800"
+							height="600"
+							allowtransparency
+						>
+						</iframe>		
+
+						</section>
+					</div>
+					
+
+				</div>
+
+
+
+
+{% endblock content2 %}

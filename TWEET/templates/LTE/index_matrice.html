@@ -1,0 +1,141 @@
+{% extends "LTE/starter.html" %}
+{% load staticfiles %}
+{% load humanize %}
+
+{% block content1 %}
+	
+      <h1>
+	  
+        Matrice PMG Vs Récence
+        <small> Données: Du {{json.DateMin}} au {{json.DateMax}}</small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> {{liste_alpha}}</a></li>
+        <li class="active">Matrice</li>
+      </ol>
+	  
+{% endblock content1 %}
+
+
+{% block content2 %}
+
+		<div id="main>
+			<div class="container">
+				<div class="row main-row">
+					<div class="9u">
+						
+						<section class="left-content" id=GG>	
+							    <div id="chart"></div>
+
+							<script src="http://d3js.org/d3.v3.js"></script>
+								{% load staticfiles %}
+							    <script>
+										var margin = { top: 50, right: 0, bottom: 100, left: 100 },
+											  width = 650 - margin.left - margin.right,
+											  height = 650 - margin.top - margin.bottom,
+											  gridSize = Math.floor(height / 4),
+											  legendElementWidth = gridSize*2,
+											  buckets = 12,
+											  colors = ["#d1280a","#ef4a2d","#ef755f","#efd25f","#c0ed82","#a0d15c","#99d644","#8ed62a","#14ed04"], // alternatively colorbrewer.YlGnBu[9]
+											  days = ["TG", "G", "M",'P'],
+											  times = ["TLT", "LT", "MT",'CT'];
+											  datasets = ["ZIG_55.tsv", "ZIG_55.tsv"];
+											  chemin="/static/data/"+"{{liste_alpha}}"+"/ZIG_55.tsv";
+
+										  var svg = d3.select("#chart").append("svg")
+											  .attr("width", width + margin.left + margin.right)
+											  .attr("height", height + margin.top + margin.bottom)
+											  .append("g")
+											  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+										  var dayLabels = svg.selectAll(".dayLabel")
+											  .data(days)
+											  .enter().append("text")
+												.text(function (d) { return d; })
+												.attr("x", 0)
+												.attr("y", function (d, i) { return i * gridSize; })
+												.style("text-anchor", "end")
+												.attr("transform", "translate(-6," + gridSize / 1.5 + ")")
+												.attr("class", function (d, i) { return ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"); });
+
+										  var timeLabels = svg.selectAll(".timeLabel")
+											  .data(times)
+											  .enter().append("text")
+												.text(function(d) { return d; })
+												.attr("x", function(d, i) { return i * gridSize; })
+												.attr("y", 0)
+												.style("text-anchor", "middle")
+												.attr("transform", "translate(" + gridSize / 2 + ", -6)")
+												.attr("class", function(d, i) { return ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"); });
+
+										  var heatmapChart = function(tsvFile) {
+											d3.tsv(tsvFile,
+											function(d) {
+											  return {
+												day: +d.PMG2,
+												hour: +d.REC ,
+												value: +d.IDC,
+												MT_TOT: +d.MT_TOT
+											  };
+											},	
+											function(error, data) {
+											  var colorScale = d3.scale.quantile()
+												  .domain([0, buckets - 1, d3.max(data, function (d) { return (d.day+d.hour); })])
+												  .range(colors);
+
+											  var cards = svg.selectAll(".hour")
+												  .data(data, function(d) {return d.day+':'+d.hour;});
+
+											  cards.append("title");
+
+											  cards.enter().append("rect")
+												  .attr("x", function(d) { return (d.hour - 1) * gridSize; })
+												  .attr("y", function(d) { return (d.day - 1) * gridSize; })
+												  .attr("rx", 10)
+												  .attr("ry", 10)
+												  .attr("class", "hour bordered")
+												  .attr("width", gridSize)
+												  .attr("height", gridSize)	
+												  .style("fill", colors[0])
+												  ;
+
+
+											  cards.transition().duration(3000)
+												  .style("fill", function(d) { return colorScale(d.day+d.hour); });
+
+											  cards.select("title").text(function(d) { return d.value; });
+									  
+
+											  cards.enter().append("text")
+												  .attr("x", function(d) { return (d.hour - 1) * gridSize+gridSize*0.3; })
+												  .attr("y", function(d) { return (d.day - 1) * gridSize+gridSize*0.7; })
+												  .text(function(d) { return d3.format(".2s")(d.MT_TOT)+"€"; })
+												  .attr("class", "AA")
+
+											  cards.enter().append("text")
+												  .attr("x", function(d) { return (d.hour - 1) * gridSize+gridSize*0.1; })
+												  .attr("y", function(d) { return (d.day - 1) * gridSize+gridSize*0.3; })
+												  .text(function(d) { return (d.value+" Clients"); })
+												  .attr("class", "AA")	
+												  
+												  ;  
+											  cards.exit().remove();
+
+
+
+											});  
+										  };
+
+										  heatmapChart(chemin);
+									</script>
+							
+											
+						</section>
+					
+					</div>
+	
+				</div>
+			</div>
+		</div>
+{% endblock content2 %}
+

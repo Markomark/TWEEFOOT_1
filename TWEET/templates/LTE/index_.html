@@ -1,0 +1,339 @@
+{% extends "LTE/starter.html" %}
+{% load staticfiles %}
+{% load humanize %}
+
+
+
+
+{% block content2 %}
+
+		<div id="main">
+			<div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner">
+              <h3>Directory</h3>
+
+              <p>All players twitter's</p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-map-signs"></i>
+            </div>
+            <a href="#" class="small-box-footer">Go <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-4 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-green">
+            <div class="inner">
+              <h3>Top Tweets<sup style="font-size: 20px"></sup></h3>
+
+              <p>Most favorited & retweeted ones</p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-diamond"></i>
+            </div>
+            <a href="#" class="small-box-footer">Go <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-4 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-yellow">
+            <div class="inner">
+              <h3>Timelines</h3>
+
+              <p>Dedicated timelines</p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-comment-o"></i>
+            </div>
+            <a href="#" class="small-box-footer">Go <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+</div>
+		<div class="row">					
+		<div class="col-md-3">
+		
+		
+		{% if liste_tweet %}
+								
+								{% for tweet in liste_tweet|slice:"0:10" %}
+
+	
+       
+          <!-- Box Comment -->
+		  
+          <div class="box box-widget">
+            <div class="box-header with-border">
+			<a href="/AS/{{tweet.id_twit}}">
+              <div class="user-block">
+			   
+                <img class="img-circle" src="{{tweet.profile_image_url_u|cut:'_normal'}}" alt="User Image">
+				
+                <span class="username"><a href="https://twitter.com/{{tweet.id_twit}}/status/{{tweet.idd}}"></a>
+				{{tweet.name_u}} / {{tweet.club}}</span>
+				
+				</br>
+				<span class="label label-primary pull-right" id="numero2"> {{tweet.numero}} </span>
+				@{{tweet.id_twit}}</a> <i class="fa fa-check-square"></i></span>
+				
+				 </br>
+                <span class="description pull-right">{{tweet.col|naturaltime}}</span>
+              </div>
+			    </a>
+              <!-- /.user-block -->
+              <div class="box-tools">
+
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <img class="img-responsive pad" src="{{tweet.media_url}}" alt="Photo">
+
+              <p>{{tweet.text}}</p>
+			  </br>
+			  
+			  			  
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Retweet</button>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">{{tweet.favorite_count|floatformat:"0"|intcomma}} Likes - {{tweet.retweet_count|floatformat:"0"|intcomma}} Retweets</span>
+            </div>
+            <!-- /.box-body -->
+      
+            <!-- /.box-footer -->
+  
+            <!-- /.box-footer -->
+          </div>
+		  
+		
+          <!-- /.box -->
+       
+        <!-- /.col -->
+ 
+        <!-- /.col -->
+      
+	  
+								
+								{% endfor %}
+								
+							{% endif %}
+
+ </div>				
+	<div class="col-md-3">
+		{% if liste_tweet %}
+								
+								{% for tweet in liste_tweet|slice:"10:20" %}
+
+	
+          <!-- Box Comment -->
+          <div class="box box-widget">
+            <div class="box-header with-border">
+              <div class="user-block">
+			   
+                <img class="img-circle" src="{{tweet.profile_image_url_u|cut:'_normal'}}" alt="User Image">
+				
+                <span class="username"><a href="https://twitter.com/{{tweet.id_twit}}/status/{{tweet.idd}}">
+				{{tweet.name_u}} / {{tweet.club}}
+				
+				</br>
+				<span class="label label-primary pull-right"> {{tweet.numero}} </span>
+				@{{tweet.id_twit}}</a> <i class="fa fa-check-square"></i></span>
+				
+				 
+                <span class="description">{{tweet.col|naturaltime}}</span>
+              </div>
+              <!-- /.user-block -->
+              <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Mark as read">
+                  <i class="fa fa-circle-o"></i></button>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <img class="img-responsive pad" src="{{tweet.media_url}}" alt="Photo">
+
+              <p>{{tweet.text}}</p>
+			  </br>
+			  
+			  			  
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Retweet</button>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">{{tweet.favorite_count|floatformat:"0"|intcomma}} Likes - {{tweet.retweet_count|floatformat:"0"|intcomma}} Retweets</span>
+            </div>
+            <!-- /.box-body -->
+      
+            <!-- /.box-footer -->
+  
+            <!-- /.box-footer -->
+          </div>
+          <!-- /.box -->
+       
+        <!-- /.col -->
+ 
+        <!-- /.col -->
+      
+	  
+								
+								{% endfor %}
+								
+							{% endif %}
+
+ </div>				
+
+	  
+	<div class="col-md-3">
+		{% if liste_tweet %}
+								
+								{% for tweet in liste_tweet|slice:"20:30" %}
+
+	
+          <!-- Box Comment -->
+          <div class="box box-widget">
+            <div class="box-header with-border">
+              <div class="user-block">
+			   
+                <img class="img-circle" src="{{tweet.profile_image_url_u|cut:'_normal'}}" alt="User Image">
+				
+                <span class="username"><a href="https://twitter.com/{{tweet.id_twit}}/status/{{tweet.idd}}">
+				{{tweet.name_u}} / {{tweet.club}}
+				
+				</br>
+				<span class="label label-primary pull-right"> {{tweet.numero}} </span>
+				@{{tweet.id_twit}}</a> <i class="fa fa-check-square"></i></span>
+				
+				 
+                <span class="description">{{tweet.col|naturaltime}}</span>
+              </div>
+              <!-- /.user-block -->
+              <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Mark as read">
+                  <i class="fa fa-circle-o"></i></button>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <img class="img-responsive pad" src="{{tweet.media_url}}" alt="Photo">
+
+              <p>{{tweet.text}}</p>
+			  </br>
+			  
+			  			  
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Retweet</button>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">{{tweet.favorite_count|floatformat:"0"|intcomma}} Likes - {{tweet.retweet_count|floatformat:"0"|intcomma}} Retweets</span>
+            </div>
+            <!-- /.box-body -->
+      
+            <!-- /.box-footer -->
+  
+            <!-- /.box-footer -->
+          </div>
+          <!-- /.box -->
+       
+        <!-- /.col -->
+ 
+        <!-- /.col -->
+      
+	  
+								
+								{% endfor %}
+								
+							{% endif %}
+
+ </div>				
+
+ 
+ 	<div class="col-md-3">
+		{% if liste_tweet %}
+								
+								{% for tweet in liste_tweet|slice:"30:40" %}
+
+	
+          <!-- Box Comment -->
+          <div class="box box-widget">
+            <div class="box-header with-border">
+              <div class="user-block">
+			   
+                <img class="img-circle" src="{{tweet.profile_image_url_u|cut:'_normal'}}" alt="User Image">
+				
+                <span class="username"><a href="https://twitter.com/{{tweet.id_twit}}/status/{{tweet.idd}}">
+				{{tweet.name_u}} / {{tweet.club}}
+				
+				</br>
+				<span class="label label-primary pull-right"> {{tweet.numero}} </span>
+				@{{tweet.id_twit}}</a> <i class="fa fa-check-square"></i></span>
+				
+				 
+                <span class="description">{{tweet.col|naturaltime}}</span>
+              </div>
+              <!-- /.user-block -->
+              <div class="box-tools">
+                <button type="button" class="btn btn-box-tool" data-toggle="tooltip" title="Mark as read">
+                  <i class="fa fa-circle-o"></i></button>
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+              <!-- /.box-tools -->
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <img class="img-responsive pad" src="{{tweet.media_url}}" alt="Photo">
+
+              <p>{{tweet.text}}</p>
+			  </br>
+			  
+			  			  
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-share"></i> Retweet</button>
+              <button type="button" class="btn btn-default btn-xs"><i class="fa fa-thumbs-o-up"></i> Like</button>
+              <span class="pull-right text-muted">{{tweet.favorite_count|floatformat:"0"|intcomma}} Likes - {{tweet.retweet_count|floatformat:"0"|intcomma}} Retweets</span>
+            </div>
+            <!-- /.box-body -->
+      
+            <!-- /.box-footer -->
+  
+            <!-- /.box-footer -->
+          </div>
+          <!-- /.box -->
+       
+        <!-- /.col -->
+ 
+        <!-- /.col -->
+      
+	  
+								
+								{% endfor %}
+								
+							{% endif %}
+
+ </div>				
+
+ </div>
+ </div>
+	  
+ </div>
+	  				
+				
+				
+				
+					</div>
+				</div>
+			</div>
+		</div>	
+{% endblock content2 %}
